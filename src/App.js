@@ -8,6 +8,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home.js';
+import FavoriteShows from './pages/FavoriteShows.js';
+import Genres from './pages/Genres.js';
 import Show from './pages/Show.js';
 import { showsTool } from './utilities/showsUtilities.js';
 
@@ -27,7 +29,7 @@ function App() {
 
   async function fetchShowsAsync(){
     try {
-        const response = await fetch('dimosthenis_tv_shows.json');
+        const response = await fetch('/dimosthenis_tv_shows.json');
         const json = await response.json();
 
         setShows(json);
@@ -52,7 +54,9 @@ function App() {
             <section>
               <Routes>
                 <Route path="/" element={<Home t={t} shows={shows} />}></Route>
-                <Route path="/show/:showId" action={({ params }) => {}} element={<Show t={t} />}></Route>
+                <Route path="/favorites" element={<FavoriteShows t={t} shows={shows} />}></Route>
+                <Route path="/genres" element={<Genres t={t} shows={shows} />}></Route>
+                <Route path="/show/:showId" action={({ params }) => {}} element={<Show t={t} shows={shows} />}></Route>
               </Routes>
             </section>
             <Footer></Footer>

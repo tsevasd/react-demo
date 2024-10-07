@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
-import { useContext } from "react";
+import { useContext, useReducer } from "react";
 import ThemeContext from "../context/ThemeContext";
 import UserContext from "../context/UserContext";
+import userReducer from "../reducers/userReducer";
 import SearchWidget from "./SearchWidget";
 import UserMenu from "./UserMenu";
 import { IconNotification } from '../icons/all';
@@ -11,7 +12,9 @@ import { IconNotification } from '../icons/all';
 export default function Header({t, handleChangeLanguage, showsShort}){
 
     const { theme } = useContext(ThemeContext);
-    const { user } = useContext(UserContext);
+    //const { user } = useContext(UserContext);
+    const { userInitialState, setUser } = useContext(UserContext);
+    const [user, dispatch] = useReducer(userReducer, {...userInitialState});
 
     return(
         <header className="w-full flex flex-row items-center px-6 py-4">

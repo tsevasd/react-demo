@@ -24,13 +24,13 @@ export default function Sidebar({t}){
                 </div>
                 <ul className="p-2">
                     <li>
-                        <Link to="/" className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                        <Link to="/favorites" className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                             <IconHeart iconClassName="w-8 stroke-secondary inline"></IconHeart>
                             <span className="ml-3 align-middle">{ t('header.menu.favorites') }</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/" className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                        <Link to="/genres" className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                             <IconFilm iconClassName="w-8 stroke-secondary inline"></IconFilm>
                             <span className="ml-3 align-middle">{ t('header.menu.genres') }</span>
                         </Link>

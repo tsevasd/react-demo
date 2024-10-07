@@ -1,16 +1,16 @@
-export default function ticketReducer(state, action){
+export default function showsReducer(shows, action){
 
     switch(action.type){
         case "GET_MOVIE_BY_ID":
-            return state.find(m => m.id === action.payload.id);
+            return shows.find(m => m.id === action.payload.id);
         case "GET_SHOWS_BY_GENRE":
-            return state.filter(x => x.genre.includes(action.payload.genre));
+            return shows.filter(x => x.genre.includes(action.payload.genre));
         case "GET_SHOWS_BY_ACTOR":
-            return state.filter(m => m.cast.find(a => a.name === action.payload.actorName));
+            return shows.filter(m => m.cast.find(a => a.name === action.payload.actorName));
         case "TOP_RATING_SHOWS":
-            return state.sort((a, b) => b.rating - a.rating).slice(0, action.payload.amount);
+            return shows.sort((a, b) => b.rating - a.rating).slice(0, action.payload.amount);
         default:
-            return state;
+            return shows;
     }
 
 }

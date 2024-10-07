@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import ThemeContext from '../context/ThemeContext';
 import ShowCard from '../components/ShowCard';
+import GenresWidget from '../components/GenresWidget';
 
 export default function Home({t, shows}) {
 
@@ -19,8 +20,8 @@ export default function Home({t, shows}) {
                         ))}
                     </div>
                 </div>
-                <div className="mb-4 grid grid-cols-4 gap-4 border-l border-darkcolor">
-    
+                <div className="border-l border-darkcolor">
+                    <GenresWidget t={t}></GenresWidget>
                 </div>
             </div>
             <div className="flex jusify-center gap-2">
