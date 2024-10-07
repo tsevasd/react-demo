@@ -1,0 +1,3883 @@
+[
+  {
+    "id": 1,
+    "title": "Dark",
+    "years": [2017, 2019, 2020],
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": [
+      "epic",
+      "psychological drama",
+      "psychological thriller",
+      "suspense mystery",
+      "time travel",
+      "crime",
+      "drama",
+      "mystery",
+      "sci-fi",
+      "thriller"
+    ],
+    "description": "A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the relationships among four families.",
+    "rating": 8.7,
+    "cast": [
+      {
+        "name": "Louis Hofmann",
+        "hero": "Jonas Kahnwald"
+      },
+      {
+        "name": "Karoline Eichhorn",
+        "hero": "Charlotte Doppler"
+      },
+      {
+        "name": "Lisa Vicari",
+        "hero": "Martha Nielsen"
+      },
+      {
+        "name": "Maja Schöne",
+        "hero": "Hannah Kahnwald"
+      },
+      {
+        "name": "Jördis Triebel",
+        "hero": "Katharina Nielsen"
+      },
+      {
+        "name": "Andreas Pietschmann",
+        "hero": "The Stranger"
+      },
+      {
+        "name": "Stephan Kampwirth",
+        "hero": "Peter Doppler"
+      },
+      {
+        "name": "Paul Lux",
+        "hero": "Bartosz Tiedemann"
+      },
+      {
+        "name": "Oliver Masucci",
+        "hero": "Ulrich Nielsen"
+      },
+      {
+        "name": "Moritz Jahn",
+        "hero": "Magnus Nielsen"
+      },
+      {
+        "name": "Peter Benedict",
+        "hero": "Aleksander Tiedemann"
+      },
+      {
+        "name": "Gina Stiebitz",
+        "hero": "Franziska Doppler"
+      },
+      {
+        "name": "Deborah Kaufmann",
+        "hero": "Regina Tiedemann"
+      },
+      {
+        "name": "Daan Lennard Liebrenz",
+        "hero": "Mikkel Nielsen"
+      },
+      {
+        "name": "Julika Jenkins",
+        "hero": "Claudia Tiedemann 1987"
+      },
+      {
+        "name": "Carlotta von Falkenhayn",
+        "hero": "Elisabeth Doppler"
+      },
+      {
+        "name": "Dietrich Hollinderbäumer",
+        "hero": "Adam"
+      },
+      {
+        "name": "Mark Waschke",
+        "hero": "Noah"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Stranger Things",
+    "years": [2016, 2017, 2019, 2022, 2025],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": [
+      "dark fantasy",
+      "monster horror",
+      "supernatural fantasy",
+      "supernatural horror",
+      "teen horror",
+      "drama",
+      "fantasy",
+      "horror",
+      "mystery",
+      "sci-fi"
+    ],
+    "description": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
+    "rating": 8.7,
+    "cast": [
+      {
+        "name": "Millie Bobby Brown",
+        "hero": "Eleven"
+      },
+      {
+        "name": "Finn Wolfhard",
+        "hero": "Mike Wheeler"
+      },
+      {
+        "name": "Winona Ryder",
+        "hero": "Joyce Byers"
+      },
+      {
+        "name": "David Harbour",
+        "hero": "Jim Hopper"
+      },
+      {
+        "name": "Gaten Matarazzo",
+        "hero": "Dustin Henderson"
+      },
+      {
+        "name": "Caleb McLaughlin",
+        "hero": "Lucas Sinclair"
+      },
+      {
+        "name": "Natalia Dyer",
+        "hero": "Nancy Wheeler"
+      },
+      {
+        "name": "Charlie Heaton",
+        "hero": "Jonathan Byers"
+      },
+      {
+        "name": "Joe Keery",
+        "hero": "Steve Harrington"
+      },
+      {
+        "name": "Noah Schnapp",
+        "hero": "Will Byers"
+      },
+      {
+        "name": "Cara Buono",
+        "hero": "Karen Wheeler"
+      },
+      {
+        "name": "Sadie Sink",
+        "hero": "Max Mayfield"
+      },
+      {
+        "name": "Priah Ferguson",
+        "hero": "Erica Sinclair"
+      },
+      {
+        "name": "Joe Chrest",
+        "hero": "Ted Wheeler"
+      },
+      {
+        "name": "Maya Hawke",
+        "hero": "Robin Buckley"
+      },
+      {
+        "name": "Brett Gelman",
+        "hero": "Murray Bauman"
+      },
+      {
+        "name": "Paul Reiser",
+        "hero": "Dr. Sam Owens"
+      },
+      {
+        "name": "Dacre Montgomery",
+        "hero": "Billy Hargrove"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bodies",
+    "years": [2023],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzdiYzRjZjctZDE0ZC00MGQ4LWEwYzAtZDEyNzJiYzI2YjM2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["period drama", "time travel", "crime", "drama", "history", "sci-fi", "thriller"],
+    "description": "Four detectives, living in different eras - 1890, 1941, 2023 and 2053 - find the body of the same murder victim in Whitechapel. They soon come to realize their investigations have them central to a conspiracy spanning over 150 yearss.",
+    "rating": 7.3,
+    "cast": [
+      {
+        "name": "Amaka Okafor",
+        "hero": "Shahara Hasan"
+      },
+      {
+        "name": "Kyle Soller",
+        "hero": "Alfred Hillinghead"
+      },
+      {
+        "name": "Shira Haas",
+        "hero": "Iris Maplewood"
+      },
+      {
+        "name": "Jacob Fortune-Lloyd",
+        "hero": "Charles Whiteman"
+      },
+      {
+        "name": "Tom Mothersdale",
+        "hero": "Gabriel Defoe"
+      },
+      {
+        "name": "Greta Scacchi",
+        "hero": "Polly"
+      },
+      {
+        "name": "Stephen Graham",
+        "hero": "Mannix"
+      },
+      {
+        "name": "Synnove Karlsen",
+        "hero": "Polly Hillinghead"
+      },
+      {
+        "name": "George Parker",
+        "hero": "Henry Ashe"
+      },
+      {
+        "name": "Michael Jibson",
+        "hero": "Barber"
+      },
+      {
+        "name": "Nicholas Farrell",
+        "hero": "Chief Inspector Paxman"
+      },
+      {
+        "name": "Gabriel Howell",
+        "hero": "Elias"
+      },
+      {
+        "name": "Amy Manson",
+        "hero": "Charlotte Hillinghead"
+      },
+      {
+        "name": "Chloe Raphael",
+        "hero": "Esther Jankovsky"
+      },
+      {
+        "name": "Nitin Ganatra",
+        "hero": "Ishmael"
+      },
+      {
+        "name": "Derek Riddell",
+        "hero": "Chief Inspector Calloway"
+      },
+      {
+        "name": "Emily Barber",
+        "hero": "Kathleen"
+      },
+      {
+        "name": "Andrew Whipp",
+        "hero": "Ladbroke"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The 7 Lives of Lea",
+    "years": [2022],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTFiNGI4ZGItOTdmMi00MjE5LTllOTMtYThjYjI0MGQ2YWY5XkEyXkFqcGdeQXVyMTg1ODkxNDY@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": ["crime", "drama", "fantasy", "mystery", "thriller"],
+    "description": "Follows a woman who stumbles upon the body of Ismael, a teenager who disappeared thirty yearss earlier, with the event taking her back to 1991 and seeing her wake up every morning in the body of a different person.",
+    "rating": 7.5,
+    "cast": [
+      {
+        "name": "Raïka Hazanavicius",
+        "hero": "Léa"
+      },
+      {
+        "name": "Khalil Ben Gharbia",
+        "hero": "Ismaël"
+      },
+      {
+        "name": "Marguerite Thiam",
+        "hero": "Karine adolescente"
+      },
+      {
+        "name": "Maïra Schmitt",
+        "hero": "Romane"
+      },
+      {
+        "name": "Théo Fernandez",
+        "hero": "Stéphane adolescent"
+      },
+      {
+        "name": "Anne Azoulay",
+        "hero": "Patricia"
+      },
+      {
+        "name": "Alexander Ferrario",
+        "hero": "Pierre-Yves - adolescent"
+      },
+      {
+        "name": "Mélanie Doutey",
+        "hero": "Karine adulte"
+      },
+      {
+        "name": "Samuel Benchetrit",
+        "hero": "Stéphane adulte"
+      },
+      {
+        "name": "Christopher W. Jones",
+        "hero": "Stéphane"
+      },
+      {
+        "name": "Rebecca Williams",
+        "hero": "Sandra"
+      },
+      {
+        "name": "Hubert Delattre",
+        "hero": "Pierre-Yves adulte"
+      },
+      {
+        "name": "Olivia Castanho",
+        "hero": "Jennifer"
+      },
+      {
+        "name": "Zirek",
+        "hero": "Hocine"
+      },
+      {
+        "name": "Holy Fatma",
+        "hero": "Miriam Ben Fériel"
+      },
+      {
+        "name": "Nolwenn Moreau",
+        "hero": "Jennifer adulte"
+      },
+      {
+        "name": "Bernard Villanueva",
+        "hero": "père de Stéphane"
+      },
+      {
+        "name": "Rebecca Williams",
+        "hero": "Sandra"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "The Forest",
+    "years": [2017],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzY5NThkOWItN2I1OC00MzQ2LThlYjktMGExYTk2YzM1ZGRmXkEyXkFqcGdeQXVyODEyMzI2OTE@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    "genres": ["crime", "drama"],
+    "description": "Sixteen-years-old Jennifer disappears one night from her village in the Ardennes. Captain Gaspard Deker leads the investigation with local cop Virginie Musso, who knew the girl well. They are helped by Eve, a lonely and mysterious woman.",
+    "rating": 7.2,
+    "cast": [
+      {
+        "name": "Samuel Labarthe",
+        "hero": "Gaspard Decker"
+      },
+      {
+        "name": "Suzanne Clément",
+        "hero": "Virginie Musso"
+      },
+      {
+        "name": "Alexia Barlier",
+        "hero": "Eve Mendel"
+      },
+      {
+        "name": "Frédéric Diefenthal",
+        "hero": "Vincent Musso"
+      },
+      {
+        "name": "Patrick Ridremont",
+        "hero": "Thierry Rouget"
+      },
+      {
+        "name": "Nicolas Marié",
+        "hero": "Gilles Lopez"
+      },
+      {
+        "name": "Gilles Vandeweerd",
+        "hero": "Philippe"
+      },
+      {
+        "name": "Mélusine Loveniers",
+        "hero": "Lola Decker"
+      },
+      {
+        "name": "Martha Canga Antonio",
+        "hero": "Maya Musso"
+      },
+      {
+        "name": "Christian Crahay",
+        "hero": "Abraham Mendel"
+      },
+      {
+        "name": "Inès Bally",
+        "hero": "Océane Rouget"
+      },
+      {
+        "name": "François Neycken",
+        "hero": "Julien"
+      },
+      {
+        "name": "Maxime Rennaux",
+        "hero": "Tristan Musso"
+      },
+      {
+        "name": "Isis Guillaume",
+        "hero": "Jennifer Lenoir"
+      },
+      {
+        "name": "Laetitia Reva",
+        "hero": "Laurence Lenoir"
+      },
+      {
+        "name": "Mary Kate Petsky",
+        "hero": "Jennifer Lenoir and Lola Decker"
+      },
+      {
+        "name": "Martin Spinhayer",
+        "hero": "Jacques Lenoir"
+      },
+      {
+        "name": "Martin De Myttenaere",
+        "hero": "Max Rinkert"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Save Me (Σώσε Με)",
+    "years": [2022],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzUxNmE3ZDktMjBkNy00NzM4LTg5MDMtNjQzODRkNTk0NTJlXkEyXkFqcGdeQXVyMTM4MTcyNDE1._V1_QL75_UY281_CR19,0,190,281_.jpg",
+    "genres": ["crime", "drama", "mystery", "thriller"],
+    "description": "A young wood-curving artist is returning to her hometown for the memorial of her father's death. Her youngest sister is missing. A few kilometers away, a police detective (Despina Loukidi) is investigating the murder of a woman.",
+    "rating": 7.1,
+    "cast": [
+      {
+        "name": "Elena Mavridou",
+        "hero": "Despoina Loukidi"
+      },
+      {
+        "name": "Danae Skiadi",
+        "hero": "Nikol Pomanou"
+      },
+      {
+        "name": "Ektor Liatsos",
+        "hero": "Stratis Leris"
+      },
+      {
+        "name": "Lila Baklesi",
+        "hero": "Alkistis Pomanou"
+      },
+      {
+        "name": "Anna Mascha",
+        "hero": "Lena Makou"
+      },
+      {
+        "name": "Mihalis Siriopoulos",
+        "hero": "Iasonas Konstas"
+      },
+      {
+        "name": "Evangelia Adreadaki",
+        "hero": "Areti Pomanou"
+      },
+      {
+        "name": "Ioanna Asimakopoulou",
+        "hero": "Rania Pomanou"
+      },
+      {
+        "name": "Manolis Mavromatakis",
+        "hero": "Kostas Giavasis"
+      },
+      {
+        "name": "Nikos Georgakis",
+        "hero": "Kostas Fotikas"
+      },
+      {
+        "name": "Pavlos Orkopoulos",
+        "hero": "Menelaos Loukidis"
+      },
+      {
+        "name": "Anna Maria Marinaki",
+        "hero": "Alkistis Pomanou (Child)"
+      },
+      {
+        "name": "Christina Koutsou",
+        "hero": ""
+      },
+      {
+        "name": "Antonis Giannakos",
+        "hero": "Marios"
+      },
+      {
+        "name": "Georgia Tsagaraki",
+        "hero": "Giota Marmati"
+      },
+      {
+        "name": "Mihalis Valasoglou",
+        "hero": "Art Teacher"
+      },
+      {
+        "name": "Kostas Bibis",
+        "hero": "Evaggelos Markinis"
+      },
+      {
+        "name": "Giannis Trouboukis",
+        "hero": "Pomanos"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Black Spot",
+    "years": [2017, 2019],
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjVjMmE4OGUtYjYyYS00N2YxLTkwN2ItYmY3ZTViZDc5NzZiXkEyXkFqcGc@._V1_QL75_UY281_CR6,0,190,281_.jpg",
+    "genres": ["crime", "drama", "horror", "mystery", "thriller"],
+    "description": "A police chief and an eccentric new prosecutor investigate a string of grisly crimes and eerie phenomena in an isolated town at the edge of a forest.",
+    "rating": 7.4,
+    "cast": [
+      {
+        "name": "Suliane Brahim",
+        "hero": "Laurène Weiss"
+      },
+      {
+        "name": "Hubert Delattre",
+        "hero": "Nounours"
+      },
+      {
+        "name": "Laurent Capelluto",
+        "hero": "Franck Siriani"
+      },
+      {
+        "name": "Samuel Jouy",
+        "hero": "Bertrand Steiner"
+      },
+      {
+        "name": "Camille Aguilar",
+        "hero": "Cora Weiss"
+      },
+      {
+        "name": "Renaud Rutten",
+        "hero": "Louis Hermann"
+      },
+      {
+        "name": "Brigitte Sy",
+        "hero": "Sabine Hennequin"
+      },
+      {
+        "name": "Naidra Ayadi",
+        "hero": "Leïla Barami"
+      },
+      {
+        "name": "Anne Suarez",
+        "hero": "Léa Steiner"
+      },
+      {
+        "name": "Dan Herzberg",
+        "hero": "Gaspard Bellan"
+      },
+      {
+        "name": "Kit Sheehan",
+        "hero": "Laurène Weiss"
+      },
+      {
+        "name": "Laura Richardson",
+        "hero": "Sabine"
+      },
+      {
+        "name": "Olivier Bonjour",
+        "hero": "Gérald Steiner"
+      },
+      {
+        "name": "Thomas Doret",
+        "hero": "Rudy Guerin…"
+      },
+      {
+        "name": "Tiphaine Daviot",
+        "hero": "Camille Laugier"
+      },
+      {
+        "name": "Samir Boitard",
+        "hero": "Paul Méric Pompier"
+      },
+      {
+        "name": "Théo Costa-Marini",
+        "hero": "Roman Barthélémy"
+      },
+      {
+        "name": "Cyrielle Debreuil",
+        "hero": "Anna Delambre"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Into The Night",
+    "years": [2020, 2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjNiMzJkZDMtZDg4NC00YjQyLTg2ZGQtOGVjNDdjZGQyZWU4XkEyXkFqcGdeQXVyMjQ0NDQxNDA@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": ["dystopian sci-fi", "drama", "sci-fi", "thriller"],
+    "description": "When radiation from the sun causes a global disaster on Earth, survivors on an overnight flight from Brussels race from city to city trying to stay ahead of the sun's rays by remaining in the cover of night.",
+    "rating": 7.0,
+    "cast": [
+      {
+        "name": "Pauline Etienne",
+        "hero": "Sylvie Bridgette Dubois"
+      },
+      {
+        "name": "Laurent Capelluto",
+        "hero": "Mathieu Daniel Douek"
+      },
+      {
+        "name": "Mehmet Kurtulus",
+        "hero": "Ayaz Kobanbay"
+      },
+      {
+        "name": "Babetida Sadjo",
+        "hero": "Laura Djalo"
+      },
+      {
+        "name": "Jan Bijvoet",
+        "hero": "Richard 'Rik' Mertens"
+      },
+      {
+        "name": "Ksawery Szlenkier",
+        "hero": "Jakub Kieslowski"
+      },
+      {
+        "name": "Vincent Londez",
+        "hero": "Horst Baudin"
+      },
+      {
+        "name": "Alba Gaïa Bellugi",
+        "hero": "Ines Mélanie Ricci"
+      },
+      {
+        "name": "Nabil Mallat",
+        "hero": "Osman Azizi"
+      },
+      {
+        "name": "Stefano Cassetti",
+        "hero": "Terenzio Matteo Gallo"
+      },
+      {
+        "name": "Regina Bikkinina",
+        "hero": "Zara Oblonskaya"
+      },
+      {
+        "name": "Nicolas Alechine",
+        "hero": "Dominik"
+      },
+      {
+        "name": "Joe Manjón",
+        "hero": "Sargeant Felipe"
+      },
+      {
+        "name": "Émilie Caen",
+        "hero": "Thea Bessit"
+      },
+      {
+        "name": "Astrid Whettnall",
+        "hero": "Gabrielle Renoir"
+      },
+      {
+        "name": "Dennis Mojen",
+        "hero": "Cpt. Markus Müller"
+      },
+      {
+        "name": "Coen Bril",
+        "hero": "Heremans"
+      },
+      {
+        "name": "Javier Godino",
+        "hero": "Gerardo"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "The Signal",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzUxNmYzMjMtZDg4Zi00YzcyLTgxM2YtNjQ4NGFmMjY3YTQ3XkEyXkFqcGdeQXVyMTE5MTg5NDIw._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["space sci-fi", "drama", "mystery", "sci-fi", "thriller"],
+    "description": "When an astronaut mysteriously vanishes during a mission, her husband goes to investigate while navigating life as a single parent to their daughter.",
+    "rating": 6.0,
+    "cast": [
+      {
+        "name": "Florian David Fitz",
+        "hero": "Sven"
+      },
+      {
+        "name": "Peri Baumeister",
+        "hero": "Paula"
+      },
+      {
+        "name": "Yuna Bennett",
+        "hero": "Charlie"
+      },
+      {
+        "name": "Hadi Khanjanpour",
+        "hero": "Hadi Hiraj"
+      },
+      {
+        "name": "Sheeba Chaddha",
+        "hero": "Benisha Mudhi"
+      },
+      {
+        "name": "Katharina Schüttler",
+        "hero": "Nora"
+      },
+      {
+        "name": "Nilam Farooq",
+        "hero": "Mira"
+      },
+      {
+        "name": "Meret Becker",
+        "hero": "Friederike"
+      },
+      {
+        "name": "Uwe Preuss",
+        "hero": "Rainer"
+      },
+      {
+        "name": "Marc Ben Puch",
+        "hero": ""
+      },
+      {
+        "name": "Katharina Thalbach",
+        "hero": "Die Moonwatcherin"
+      },
+      {
+        "name": "Seumas Sargent",
+        "hero": "Jake Mitchell"
+      },
+      {
+        "name": "Eva Mannschott",
+        "hero": "Ellen"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "3 body problems",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjNiMDI5YjItNmU0Yy00NmYxLThjYmUtZDc5ODY2ZDI2NzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["alien invasion", "sci-fi epic", "adventure", "drama", "fantasy", "mystery", "sci-fi"],
+    "description": "A fateful decision made in 1960s China reverberates in the present, where a group of scientists partner with a detective to confront an existential planetary threat.",
+    "rating": 7.5,
+    "cast": [
+      {
+        "name": "Jovan Adepo",
+        "hero": "Saul Durand"
+      },
+      {
+        "name": "Liam Cunningham",
+        "hero": "Thomas Wade"
+      },
+      {
+        "name": "Eiza González",
+        "hero": "Auggie Salazar"
+      },
+      {
+        "name": "Jess Hong",
+        "hero": "Jin Cheng"
+      },
+      {
+        "name": "Benedict Wong",
+        "hero": "Da Shi"
+      },
+      {
+        "name": "Marlo Kelly",
+        "hero": "Tatiana"
+      },
+      {
+        "name": "Alex Sharp",
+        "hero": "Will Downing"
+      },
+      {
+        "name": "Sea Shimooka",
+        "hero": "Sophon"
+      },
+      {
+        "name": "Rosalind Chao",
+        "hero": "Ye Wenjie"
+      },
+      {
+        "name": "Saamer Usmani",
+        "hero": "Raj Varma"
+      },
+      {
+        "name": "Jonathan Pryce",
+        "hero": "Mike Evans"
+      },
+      {
+        "name": "Gerard Monaco",
+        "hero": "Collins"
+      },
+      {
+        "name": "John Bradley",
+        "hero": "Jack Rooney"
+      },
+      {
+        "name": "Zine Tseng",
+        "hero": "Young Ye Wenjie"
+      },
+      {
+        "name": "John Dagleish",
+        "hero": "Felix"
+      },
+      {
+        "name": "Hélène Viviès",
+        "hero": "Lecompte"
+      },
+      {
+        "name": "Stephen Rahman Hughes",
+        "hero": "Anwar Suleiman"
+      },
+      {
+        "name": "Adrian Edmondson",
+        "hero": "Denys Porlock"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Vortex",
+    "years": [2022],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzM4ZWNmYmYtNDE0Yi00ZWU3LTkyMzQtOGVlZGQwZWI5MmYyXkEyXkFqcGdeQXVyMTEzMzg5NTA0._V1_QL75_UY281_CR11,0,190,281_.jpg",
+    "genres": ["crime", "drama", "fantasy", "sci-fi", "thriller"],
+    "description": "After reconnecting with his dead wife through a glitch in virtual reality, a police officer tries to negate the mysterious accident that cost her life.",
+    "rating": 7.6,
+    "cast": [
+      {
+        "name": "Tomer Sisley",
+        "hero": "Ludovic Béguin"
+      },
+      {
+        "name": "Camille Claris",
+        "hero": "Mélanie Béguin"
+      },
+      {
+        "name": "Zineb Triki",
+        "hero": "Parvana Béguin"
+      },
+      {
+        "name": "Éric Pucheu",
+        "hero": "Nathan Leroy"
+      },
+      {
+        "name": "Sandrine Salyères",
+        "hero": "Florence Leroy"
+      },
+      {
+        "name": "Ludovik",
+        "hero": "Hector Delavigne"
+      },
+      {
+        "name": "Léo Chalié",
+        "hero": "Kim"
+      },
+      {
+        "name": "Anaïs Parello",
+        "hero": "Juliette Béguin"
+      },
+      {
+        "name": "Juliette Plumecocq-Mech",
+        "hero": "Agathe Burtin"
+      },
+      {
+        "name": "Julien Floreancig",
+        "hero": "Nicolas Orsat"
+      },
+      {
+        "name": "Evelyne El Garby Klaï",
+        "hero": "Yasmine Ben Salem"
+      },
+      {
+        "name": "Marc Andréoni",
+        "hero": "Commissaire Etienne Le Goff"
+      },
+      {
+        "name": "Maxime Guenguen",
+        "hero": "Sam Béguin"
+      },
+      {
+        "name": "Valentin Riot-Sarcey",
+        "hero": "Bruno"
+      },
+      {
+        "name": "Yuna Le Boulicot",
+        "hero": "Noémie"
+      },
+      {
+        "name": "Fabienne Rocaboy",
+        "hero": "Anne-Laure Clovin"
+      },
+      {
+        "name": "Christophe Grégoire",
+        "hero": "Commandant Tanguy"
+      },
+      {
+        "name": "Simone Peinado-Barré",
+        "hero": "Romane Leroy"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Unorthodox",
+    "years": [2020],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWE2N2E4MDMtZmRkZi00YzNmLWJlZDMtMjY5NzI2Y2E4MWI1XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["epic", "drama"],
+    "description": "Story of a young ultra-Orthodox Jewish woman who flees her arranged marriage and religious community to start a new life abroad.",
+    "rating": 8.0,
+    "cast": [
+      {
+        "name": "Shira Haas",
+        "hero": "Esther Shapiro"
+      },
+      {
+        "name": "Amit Rahav",
+        "hero": "Yanky Shapiro"
+      },
+      {
+        "name": "Jeff Wilbusch",
+        "hero": "Moishe Lefkovitch"
+      },
+      {
+        "name": "Alex Reid",
+        "hero": "Leah Mandelbaum Schwartz"
+      },
+      {
+        "name": "Ronit Asheri",
+        "hero": "Malka Schwartz"
+      },
+      {
+        "name": "Delia Mayer",
+        "hero": "Miriam Shapiro"
+      },
+      {
+        "name": "Dina Doron",
+        "hero": "Babby"
+      },
+      {
+        "name": "David Mandelbaum",
+        "hero": "Zeidy"
+      },
+      {
+        "name": "Gera Sandler",
+        "hero": "Mordecai Schwartz"
+      },
+      {
+        "name": "Lili Rosen",
+        "hero": "Rabbi"
+      },
+      {
+        "name": "Aaron Altaras",
+        "hero": "Robert"
+      },
+      {
+        "name": "Tamar Amit-Joseph",
+        "hero": "Yael"
+      },
+      {
+        "name": "Langston Uibel",
+        "hero": "Axmed"
+      },
+      {
+        "name": "Safinaz Sattar",
+        "hero": "Dasia"
+      },
+      {
+        "name": "Felix Mayr",
+        "hero": "Mike"
+      },
+      {
+        "name": "Aziz Dyab",
+        "hero": "Salim"
+      },
+      {
+        "name": "Yousef 'Joe' Sweid",
+        "hero": "Karim"
+      },
+      {
+        "name": "Isabel Schosnig",
+        "hero": "Nina"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Hold Tight",
+    "years": [2022],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmU1MjNiNDEtMTJjZC00NDZlLWE0YjUtNzlmMzIwMTVkYWRmXkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["crime", "drama", "mystery", "thriller"],
+    "description": "When a young man goes missing soon after his friend dies, life in a tight-knit, affluent Warsaw suburb slowly unravels, exposing secrets and lies.",
+    "rating": 6.2,
+    "cast": [
+      {
+        "name": "Magdalena Boczarska",
+        "hero": "Anna Barczyk"
+      },
+      {
+        "name": "Leszek Lichota",
+        "hero": "Michal Barczyk"
+      },
+      {
+        "name": "Grzegorz Damiecki",
+        "hero": "Pawel Kopinski"
+      },
+      {
+        "name": "Bill Rogers",
+        "hero": "Pawel Kopinski"
+      },
+      {
+        "name": "Agata Labno",
+        "hero": "Kaja Kopinska"
+      },
+      {
+        "name": "Klementyna Karnkowska",
+        "hero": "Jasmina Nowak"
+      },
+      {
+        "name": "Draegon Hennessy",
+        "hero": "Adam"
+      },
+      {
+        "name": "Mikolaj Sliwa",
+        "hero": "Grzegorz Gajewicz 'Gajos'"
+      },
+      {
+        "name": "Jakub Pruski",
+        "hero": "Blazej Myszkowski"
+      },
+      {
+        "name": "Tomasz Drabek",
+        "hero": "Janusz Nowak"
+      },
+      {
+        "name": "Krzysztof Oleksyn",
+        "hero": "Adam Barczyk"
+      },
+      {
+        "name": "Agnieszka Grochowska",
+        "hero": "Laura Goldsztajn-Kopinska"
+      },
+      {
+        "name": "Emily Goss",
+        "hero": "Wiera"
+      },
+      {
+        "name": "Justyna Wasilewska",
+        "hero": "Wiera"
+      },
+      {
+        "name": "Monika Kwiatkowska",
+        "hero": "Renata Kordowska"
+      },
+      {
+        "name": "Julia Wyszynska",
+        "hero": "Policewoman Ewelina Miller"
+      },
+      {
+        "name": "Adam Nawojczyk",
+        "hero": "Policeman Franciszek Trybala"
+      },
+      {
+        "name": "Jacek Poniedzialek",
+        "hero": "Natan"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Deadwind",
+    "years": [2018, 2020, 2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGQ5MWNiOGYtM2E3OC00MmJiLWE4ZWYtOThmM2E1NjlkN2JkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL75_UY281_CR6,0,190,281_.jpg",
+    "genres": ["crime", "drama", "mystery", "thriller"],
+    "description": "When Sofia Karppi discovers the body of a young woman on a construction site, she triggers a chain of events that threatens to destroy her life--again.",
+    "rating": 7.3,
+    "cast": [
+      {
+        "name": "Pihla Viitala",
+        "hero": "Sofia Karppi"
+      },
+      {
+        "name": "Lauri Tilkanen",
+        "hero": "Sakari Nurmi"
+      },
+      {
+        "name": "Mimosa Willamo",
+        "hero": "Henna Honkasuo"
+      },
+      {
+        "name": "Noa Tola",
+        "hero": "Emil Karppi"
+      },
+      {
+        "name": "Vera Kiiskinen",
+        "hero": "Peltola"
+      },
+      {
+        "name": "Ville Myllyrinne",
+        "hero": "JP"
+      },
+      {
+        "name": "Raimo Grönberg",
+        "hero": "Tapio Koskimäki"
+      },
+      {
+        "name": "Rami Peltonen",
+        "hero": "Poliisi"
+      },
+      {
+        "name": "Jani Volanen",
+        "hero": "Usko Bergdahl"
+      },
+      {
+        "name": "Tommi Korpela",
+        "hero": "Alex Hoikkala"
+      },
+      {
+        "name": "Pirjo Lonka",
+        "hero": "Julia Hoikkala"
+      },
+      {
+        "name": "Riku Nieminen",
+        "hero": "Roope Hoikkala"
+      },
+      {
+        "name": "Pamela Tola",
+        "hero": "Anna Bergdahl"
+      },
+      {
+        "name": "Jonna Järnefelt",
+        "hero": "Linda Hoikkala"
+      },
+      {
+        "name": "Mikko Nousiainen",
+        "hero": "Jarkko Vaahtera"
+      },
+      {
+        "name": "Marjaana Maijala",
+        "hero": "Maria Litma"
+      },
+      {
+        "name": "Tobias Zilliacus",
+        "hero": "Ossi Rannikko"
+      },
+      {
+        "name": "August Wittgenstein",
+        "hero": "Andreas Wolf"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "1899",
+    "years": [2022],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU1N2I5OTgtNDE2MS00ZTdmLWJlODktNDMwMGVmNzY5NmUxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": ["drama", "horror", "mystery", "sci-fi"],
+    "description": "Multinational immigrants traveling from the old continent to the new encounter a nightmarish riddle aboard a second ship adrift on the open sea.",
+    "rating": 7.3,
+    "cast": [
+      {
+        "name": "Emily Beecham",
+        "hero": "Maura Franklin"
+      },
+      {
+        "name": "Aneurin Barnard",
+        "hero": "Daniel Solace"
+      },
+      {
+        "name": "Andreas Pietschmann",
+        "hero": "Eyk Larsen"
+      },
+      {
+        "name": "Miguel Bernardeau",
+        "hero": "Ángel"
+      },
+      {
+        "name": "José Pimentão",
+        "hero": "Ramiro"
+      },
+      {
+        "name": "Isabella Wei",
+        "hero": "Ling Yi"
+      },
+      {
+        "name": "Gabby Wong",
+        "hero": "Yuk Je"
+      },
+      {
+        "name": "Yann Gael",
+        "hero": "Jérome"
+      },
+      {
+        "name": "Mathilde Ollivier",
+        "hero": "Clémence"
+      },
+      {
+        "name": "Jonas Bloquet",
+        "hero": "Lucien"
+      },
+      {
+        "name": "Rosalie Craig",
+        "hero": "Virginia Wilson"
+      },
+      {
+        "name": "Maciej Musial",
+        "hero": "Olek"
+      },
+      {
+        "name": "Clara Rosager",
+        "hero": "Tove"
+      },
+      {
+        "name": "Lucas Lynggaard Tønnesen",
+        "hero": "Krester"
+      },
+      {
+        "name": "Maria Erwolter",
+        "hero": "Iben"
+      },
+      {
+        "name": "Alexandre Willaume",
+        "hero": "Anker"
+      },
+      {
+        "name": "Tino Mewes",
+        "hero": "Sebastian"
+      },
+      {
+        "name": "Isaak Dentler",
+        "hero": "Franz"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "3%",
+    "years": [2016, 2018, 2019, 2020],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTY5NGYzYjAtZjMyOC00ODljLWI2ZDMtNzhmZDc3ZDQxMzc5XkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["dystopian sci-fi", "action", "drama", "sci-fi", "thriller"],
+    "description": "A post-apocalyptic thriller set in near-future Brazil, where a select few are allowed to join a privileged society after undergoing an intense and competitive process.",
+    "rating": 7.3,
+    "cast": [
+      {
+        "name": "Bianca Comparato",
+        "hero": "Michele Santana"
+      },
+      {
+        "name": "Vaneza Oliveira",
+        "hero": "Joana Coelho"
+      },
+      {
+        "name": "Rodolfo Valente",
+        "hero": "Rafael Moreira"
+      },
+      {
+        "name": "Zezé Motta",
+        "hero": "Nair"
+      },
+      {
+        "name": "Rafael Lozano",
+        "hero": "Marco Alvares"
+      },
+      {
+        "name": "Cynthia Aparecida",
+        "hero": "Glória"
+      },
+      {
+        "name": "Bruno Fagundes",
+        "hero": "André Santana"
+      },
+      {
+        "name": "Laila Garin",
+        "hero": "Marcela"
+      },
+      {
+        "name": "Thais Lago",
+        "hero": "Elisa"
+      },
+      {
+        "name": "Fernanda Vasconcellos",
+        "hero": "Laís"
+      },
+      {
+        "name": "Silvio Guindane",
+        "hero": "Elano"
+      },
+      {
+        "name": "Celso Frateschi",
+        "hero": "O Velho"
+      },
+      {
+        "name": "João Miguel",
+        "hero": "Ezequiel"
+      },
+      {
+        "name": "Michel Gomes",
+        "hero": "Fernando Carvalho"
+      },
+      {
+        "name": "Amanda Magalhães",
+        "hero": "Natália"
+      },
+      {
+        "name": "Fátima Porphirio",
+        "hero": ""
+      },
+      {
+        "name": "Mel Fronckowiak",
+        "hero": "Julia"
+      },
+      {
+        "name": "Ney Matogrosso",
+        "hero": "Leonardo Álvares"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Katla",
+    "years": [2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGIyYWIzODQtMzU5Ni00YmIxLTk0YzAtOTg3ZWEwNjQ4OTQ4XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_QL75_UY281_CR5,0,190,281_.jpg",
+    "genres": ["suspense mystery", "drama", "fantasy", "mystery", "sci-fi", "thriller"],
+    "description": "One year after the violent eruption of the subglacial volcano Katla, the peace and tranquility in the small town of Vik is dramatically disturbed.",
+    "rating": 7.0,
+    "cast": [
+      {
+        "name": "Guðrún Ýr Eyfjörð",
+        "hero": "Gríma"
+      },
+      {
+        "name": "Íris Tanja Flygenring",
+        "hero": "Ása"
+      },
+      {
+        "name": "Ingvar Sigurdsson",
+        "hero": "Þór"
+      },
+      {
+        "name": "Aliette Opheim",
+        "hero": "Gunhild"
+      },
+      {
+        "name": "Þorsteinn Bachmann",
+        "hero": "Gísli"
+      },
+      {
+        "name": "Haraldur Stefansson",
+        "hero": "Einar"
+      },
+      {
+        "name": "Sólveig Arnarsdóttir",
+        "hero": "Magnea"
+      },
+      {
+        "name": "Baltasar Breki Samper",
+        "hero": "Kjartan"
+      },
+      {
+        "name": "Birgitta Birgisdóttir",
+        "hero": "Rakel"
+      },
+      {
+        "name": "Björn Thors",
+        "hero": "Darri"
+      },
+      {
+        "name": "Helga Braga Jónsdóttir",
+        "hero": "Vigdís"
+      },
+      {
+        "name": "Aldís Amah Hamilton",
+        "hero": "Eyja"
+      },
+      {
+        "name": "Björn Ingi Hilmarsson",
+        "hero": "Leifur"
+      },
+      {
+        "name": "Guðrún Gísladóttir",
+        "hero": "Bergrún"
+      },
+      {
+        "name": "Jóhanna Friðrika Sæmundsdóttir",
+        "hero": "Brynja"
+      },
+      {
+        "name": "Kristín Þóra Haraldsdóttir",
+        "hero": "Álfheiður Grímsdóttir"
+      },
+      {
+        "name": "Hildur Vala Baldursdóttir",
+        "hero": "Gunhild (body double)"
+      },
+      {
+        "name": "Elísabet Birta Sveinsdóttir",
+        "hero": "Gunhild (body double)"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "The OA",
+    "years": [2016, 2019],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY5OTkwNDkzOF5BMl5BanBnXkFtZTgwMDEyNzI1NzM@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["drama", "fantasy", "mystery", "sci-fi"],
+    "description": "Having gone missing seven years ago, the previously blind Prairie returns home, now in her twenties with her sight restored. While many believe she is a miracle, others worry that she could be dangerous.",
+    "rating": 7.8,
+    "cast": [
+      {
+        "name": "Brit Marling",
+        "hero": "Prairie Johnson"
+      },
+      {
+        "name": "Jason Isaacs",
+        "hero": "Dr. Hunter Aloysius 'Hap' Percy"
+      },
+      {
+        "name": "Scott Wilson",
+        "hero": "Abel Johnson"
+      },
+      {
+        "name": "Alice Krige",
+        "hero": "Nancy Johnson"
+      },
+      {
+        "name": "Emory Cohen",
+        "hero": "Homer"
+      },
+      {
+        "name": "Patrick Gibson",
+        "hero": "Steve Winchell"
+      },
+      {
+        "name": "Ian Alexander",
+        "hero": "Buck Vu"
+      },
+      {
+        "name": "Phyllis Smith",
+        "hero": "Betty Broderick-Allen"
+      },
+      {
+        "name": "Brendan Meyer",
+        "hero": "Jesse"
+      },
+      {
+        "name": "Brandon Perea",
+        "hero": "Alfonso 'French' Sosa"
+      },
+      {
+        "name": "Will Brill",
+        "hero": "Scott Brown"
+      },
+      {
+        "name": "Chloë Levine",
+        "hero": "Angie"
+      },
+      {
+        "name": "Sharon Van Etten",
+        "hero": "Rachel"
+      },
+      {
+        "name": "Paz Vega",
+        "hero": "Renata"
+      },
+      {
+        "name": "Kingsley Ben-Adir",
+        "hero": "Karim Washington"
+      },
+      {
+        "name": "Riz Ahmed",
+        "hero": "Elias Rahim"
+      },
+      {
+        "name": "Robert Eli",
+        "hero": "Principal Gilchrist"
+      },
+      {
+        "name": "Vincent Kartheiser",
+        "hero": "Pierre Ruskin"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Altered Carbon",
+    "years": [2018, 2020],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjU2ZGQwYTctNTk2Ny00ODNmLTkzNDQtMWY2ZjM4MDI5ZmM5XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["cyberpunk", "action", "adventure", "drama", "sci-fi"],
+    "description": "Set in a future where consciousness is digitized and stored, a prisoner returns to life in a new body and must solve a mind-bending murder to win his freedom.",
+    "rating": 7.9,
+    "cast": [
+      {
+        "name": "Chris Conner",
+        "hero": "Poe"
+      },
+      {
+        "name": "Renée Elise Goldsberry",
+        "hero": "Quellcrist Falconer"
+      },
+      {
+        "name": "Dichen Lachman",
+        "hero": "Reileen Kawahara"
+      },
+      {
+        "name": "Will Yun Lee",
+        "hero": "Kovacs Prime"
+      },
+      {
+        "name": "Martha Higareda",
+        "hero": "Kristin Ortega"
+      },
+      {
+        "name": "Ato Essandoh",
+        "hero": "Vernon Elliot"
+      },
+      {
+        "name": "Joel Kinnaman",
+        "hero": "Takeshi Kovacs"
+      },
+      {
+        "name": "James Purefoy",
+        "hero": "Laurens Bancroft"
+      },
+      {
+        "name": "Kristin Lehman",
+        "hero": "Miriam Bancroft"
+      },
+      {
+        "name": "Trieu Tran",
+        "hero": "Mr. Leung"
+      },
+      {
+        "name": "Hayley Law",
+        "hero": "Lizzie Elliot"
+      },
+      {
+        "name": "Anthony Mackie",
+        "hero": "Takeshi Kovacs"
+      },
+      {
+        "name": "Lela Loren",
+        "hero": "Danica Harlan"
+      },
+      {
+        "name": "Simone Missick",
+        "hero": "Trepp"
+      },
+      {
+        "name": "Dina Shihabi",
+        "hero": "Dig 301"
+      },
+      {
+        "name": "Torben Liebrecht",
+        "hero": "Colonel Ivan Carrera"
+      },
+      {
+        "name": "Hiro Kanagawa",
+        "hero": "Captain Tanaka"
+      },
+      {
+        "name": "Waleed Zuaiter",
+        "hero": "Samir Abboud"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Black Mirror",
+    "years": [2011, 2013, 2014, 2016, 2017, 2019, 2023, 2025],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWY3ZjgwMTctZTZmMS00ZTMwLTkwYWEtNTVkMDgwNjA5ODBiXkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": [
+      "cyber thriller",
+      "dystopian sci-fi",
+      "psychological drama",
+      "psychological thriller",
+      "suspense mystery",
+      "tragedy",
+      "crime",
+      "drama",
+      "mystery",
+      "sci-fi"
+    ],
+    "description": "Featuring stand-alone dramas -- sharp, suspenseful, satirical tales that explore techno-paranoia -- \"Black Mirror\" is a contemporary reworking of \"The Twilight Zone\" with stories that tap into the collective unease about the modern world.",
+    "rating": 8.7,
+    "cast": [
+      {
+        "name": "Wunmi Mosaku",
+        "hero": "Katie"
+      },
+      {
+        "name": "Monica Dolan",
+        "hero": "CS Linda Grace"
+      },
+      {
+        "name": "Daniel Lapaine",
+        "hero": "Dawson"
+      },
+      {
+        "name": "Hannah John-Kamen",
+        "hero": "Selma Telse"
+      },
+      {
+        "name": "Michaela Coel",
+        "hero": "Airport Stewardess"
+      },
+      {
+        "name": "Aaron Paul",
+        "hero": "Cliff Stanfield"
+      },
+      {
+        "name": "Anjana Vasan",
+        "hero": "Nida Huq"
+      },
+      {
+        "name": "Kenneth Collard",
+        "hero": "Doctor Dmitri Babich"
+      },
+      {
+        "name": "Joshua James",
+        "hero": "Chris Holligan"
+      },
+      {
+        "name": "Beatrice Robertson-Jones",
+        "hero": "Older May Double"
+      },
+      {
+        "name": "Charles Babalola",
+        "hero": "Tusk"
+      },
+      {
+        "name": "Rory Kinnear",
+        "hero": "Michael Callow"
+      },
+      {
+        "name": "Toby Kebbell",
+        "hero": "Liam"
+      },
+      {
+        "name": "Daniel Kaluuya",
+        "hero": "Bing"
+      },
+      {
+        "name": "Hayley Atwell",
+        "hero": "Martha"
+      },
+      {
+        "name": "Lenora Crichlow",
+        "hero": "Victoria Skillane"
+      },
+      {
+        "name": "Daniel Rigby",
+        "hero": "Jamie Salter"
+      },
+      {
+        "name": "Jon Hamm",
+        "hero": "Matt Trent"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "The 100",
+    "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU5MTczNTkxNl5BMl5BanBnXkFtZTgwNTM5NDc1MTE@._V1_QL75_UX190_CR0,3,190,281_.jpg",
+    "genres": ["dystopian sci-fi", "teen drama", "action", "drama", "sci-fi"],
+    "description": "Set 97 years after a nuclear war destroyed civilization, when a spaceship housing humanity's lone survivors sends 100 juvenile delinquents back to Earth, hoping to repopulate the planet.",
+    "rating": 7.5,
+    "cast": [
+      {
+        "name": "Eliza Taylor",
+        "hero": "Clarke Griffin"
+      },
+      {
+        "name": "Bob Morley",
+        "hero": "Bellamy Blake"
+      },
+      {
+        "name": "Marie Avgeropoulos",
+        "hero": "Octavia Blake"
+      },
+      {
+        "name": "Isaiah Washington",
+        "hero": "Thelonious Jaha"
+      },
+      {
+        "name": "Lindsey Morgan",
+        "hero": "Raven Reyes"
+      },
+      {
+        "name": "Richard Harmon",
+        "hero": "John Murphy"
+      },
+      {
+        "name": "Paige Turco",
+        "hero": "Dr. Abigail Griffin"
+      },
+      {
+        "name": "Henry Ian Cusick",
+        "hero": "Marcus Kane"
+      },
+      {
+        "name": "Christopher Larkin",
+        "hero": "Monty Green"
+      },
+      {
+        "name": "Jarod Joseph",
+        "hero": "Nathan Miller"
+      },
+      {
+        "name": "Sachin Sahel",
+        "hero": "Dr. Eric Jackson"
+      },
+      {
+        "name": "Devon Bostick",
+        "hero": "Jasper Jordan"
+      },
+      {
+        "name": "Tasya Teles",
+        "hero": "Echo"
+      },
+      {
+        "name": "Adina Porter",
+        "hero": "Indra"
+      },
+      {
+        "name": "Luisa d'Oliveira",
+        "hero": "Emori"
+      },
+      {
+        "name": "Chelsey Reist",
+        "hero": "Harper McIntyre"
+      },
+      {
+        "name": "Ricky Whittle",
+        "hero": "Lincoln"
+      },
+      {
+        "name": "Jessica Harmon",
+        "hero": "Niylah"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "The Silent Sea",
+    "years": [2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjFkNDNjYTktZjJiNi00Y2U3LWE2NDgtZDM3YjIzMWUzNGM2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": [
+      "dystopian sci-fi",
+      "space sci-fi",
+      "suspense mystery",
+      "adventure",
+      "drama",
+      "mystery",
+      "sci-fi",
+      "thriller"
+    ],
+    "description": "During a perilous 24-hour mission on the moon, space explorers try to retrieve samples from an abandoned research facility steeped in classified secrets.",
+    "rating": 6.9,
+    "cast": [
+      {
+        "name": "Bae Doona",
+        "hero": "Doctor Song Ji-an"
+      },
+      {
+        "name": "Gong Yoo",
+        "hero": "Han Yoon-jae"
+      },
+      {
+        "name": "Lee Joon",
+        "hero": "Captain Ryoo Tae-seok"
+      },
+      {
+        "name": "Kim Sun-young",
+        "hero": "Doctor Hong Ga-Young"
+      },
+      {
+        "name": "Lee Sung-wook",
+        "hero": "Kim Hee Sun"
+      },
+      {
+        "name": "Cha Rae-hyung",
+        "hero": "E1"
+      },
+      {
+        "name": "Yoo Hee-je",
+        "hero": "E2"
+      },
+      {
+        "name": "Yoo Seong-ju",
+        "hero": "Mr. Hwang"
+      },
+      {
+        "name": "Gil Hae-Yeon",
+        "hero": "Director Choi"
+      },
+      {
+        "name": "Heo Sung-tae",
+        "hero": "Kim Jae-sun"
+      },
+      {
+        "name": "Choi Young-woo",
+        "hero": "Lee Gi-Su [co-pilot]"
+      },
+      {
+        "name": "Kang Mal-Geum",
+        "hero": "Song Won-Kyung"
+      },
+      {
+        "name": "Lee Moo-saeng",
+        "hero": "Chief Gong Soo-Hyuk"
+      },
+      {
+        "name": "Jung Soon-won",
+        "hero": "Gong Soo-Chan"
+      },
+      {
+        "name": "Feodor Chin",
+        "hero": "Kim Hee-sun"
+      },
+      {
+        "name": "Chase Yi",
+        "hero": "E2"
+      },
+      {
+        "name": "Jasper Jeon",
+        "hero": "Captain Ryoo Tae-seok"
+      },
+      {
+        "name": "Kim Si-Ah",
+        "hero": "Luna"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Another Life",
+    "years": [2019, 2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTNjOWNhYTQtNWEzOS00M2Q4LWEyOWMtZjU3ZjhhMTBmMWZjXkEyXkFqcGdeQXVyMjYwNDA2MDE@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["suspense mystery", "adventure", "drama", "mystery", "sci-fi", "thriller"],
+    "description": "Astronaut Niko Breckenridge and her young crew face unimaginable danger as they go on a high-risk mission to explore the genesis of an alien artifact.",
+    "rating": 5.3,
+    "cast": [
+      {
+        "name": "Katee Sackhoff",
+        "hero": "Niko Breckinridge"
+      },
+      {
+        "name": "Samuel Anderson",
+        "hero": "William"
+      },
+      {
+        "name": "A.J. Rivera",
+        "hero": "Bernie Martinez"
+      },
+      {
+        "name": "JayR Tinaco",
+        "hero": "Zayn Petrossian"
+      },
+      {
+        "name": "Justin Chatwin",
+        "hero": "Erik Wallace"
+      },
+      {
+        "name": "Elizabeth Faith Ludlow",
+        "hero": "Cas Isakovic"
+      },
+      {
+        "name": "Helen King",
+        "hero": "Salvare"
+      },
+      {
+        "name": "Alexander Eling",
+        "hero": "Javier Almanzar"
+      },
+      {
+        "name": "Lina Renna",
+        "hero": "Jana Breckinridge-Wallace"
+      },
+      {
+        "name": "Blu Hunt",
+        "hero": "August Catawnee"
+      },
+      {
+        "name": "Alex Ozerov-Meyer",
+        "hero": "Oliver Sokolov"
+      },
+      {
+        "name": "Tongayi Chirisa",
+        "hero": "Richard Ncube"
+      },
+      {
+        "name": "Jake Abel",
+        "hero": "Sasha Harrison"
+      },
+      {
+        "name": "Dillon Casey",
+        "hero": "Seth Gage"
+      },
+      {
+        "name": "Selma Blair",
+        "hero": "Harper Glass"
+      },
+      {
+        "name": "Parveen Dosanjh",
+        "hero": "Dr. Nani Singh"
+      },
+      {
+        "name": "Kurt Yaeger",
+        "hero": "Dillon Conner"
+      },
+      {
+        "name": "Barbara Williams",
+        "hero": "General Dubois"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Life on our planet",
+    "years": [2023],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTlmZjg1ZDctNjkwMi00NzU2LWFlYWMtZjdkMzMxYjViYmNhXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["docuseries", "nature documentary", "documentary"],
+    "description": "The incredible story of life's epic, four-billion-year journey on Earth comes alive in this series from Steven Spielberg and the team behind \"Our Planet.\"",
+    "rating": 8.1,
+    "cast": [
+      {
+        "name": "Morgan Freeman",
+        "hero": "Self - Narrator"
+      },
+      {
+        "name": "Israfeel Ahamed",
+        "hero": "Narrator - Bengali"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Haunting of Hill House",
+    "years": [2018],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": [
+      "psychological horror",
+      "supernatural horror",
+      "drama",
+      "horror",
+      "mystery",
+      "thriller"
+    ],
+    "description": "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.",
+    "rating": 8.5,
+    "cast": [
+      {
+        "name": "Michiel Huisman",
+        "hero": "Steven Crain"
+      },
+      {
+        "name": "Carla Gugino",
+        "hero": "Olivia Crain"
+      },
+      {
+        "name": "Henry Thomas",
+        "hero": "Young Hugh Crain"
+      },
+      {
+        "name": "Elizabeth Reaser",
+        "hero": "Shirley Crain"
+      },
+      {
+        "name": "Oliver Jackson-Cohen",
+        "hero": "Luke Crain"
+      },
+      {
+        "name": "Kate Siegel",
+        "hero": "Theodora Crain"
+      },
+      {
+        "name": "Victoria Pedretti",
+        "hero": "Nell Crain"
+      },
+      {
+        "name": "Lulu Wilson",
+        "hero": "Young Shirley"
+      },
+      {
+        "name": "Mckenna Grace",
+        "hero": "Young Theo"
+      },
+      {
+        "name": "Paxton Singleton",
+        "hero": "Young Steven"
+      },
+      {
+        "name": "Julian Hilliard",
+        "hero": "Young Luke"
+      },
+      {
+        "name": "Violet McGraw",
+        "hero": "Young Nell"
+      },
+      {
+        "name": "Timothy Hutton",
+        "hero": "Hugh Crain"
+      },
+      {
+        "name": "Natalia Rosminati",
+        "hero": "Steven Crain"
+      },
+      {
+        "name": "Anthony Ruivivar",
+        "hero": "Kevin Harris"
+      },
+      {
+        "name": "Samantha Sloyan",
+        "hero": "Leigh Crain"
+      },
+      {
+        "name": "Annabeth Gish",
+        "hero": "Mrs. Dudley"
+      },
+      {
+        "name": "Robert Longstreet",
+        "hero": "Mr. Dudley"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Signs",
+    "years": [2018, 2020],
+    "poster": "https://m.media-amazon.com/images/M/MV5BODUzZGFlMGEtMjBjZC00NmM2LThhNTctOGY1OGYxODM1Yjc4XkEyXkFqcGc@._V1_QL75_UY281_CR0,0,190,281_.jpg",
+    "genres": ["crime", "thriller"],
+    "description": "When a young woman's murder shows similarities to a decade-old case, a new police commander must break the silence permeating Owl Mountain town.",
+    "rating": 6.4,
+    "cast": [
+      {
+        "name": "Andrzej Konopka",
+        "hero": "Commissioner Michal Trela"
+      },
+      {
+        "name": "Helena Sujecka",
+        "hero": "Adrianna Nieradka"
+      },
+      {
+        "name": "Magdalena Zak",
+        "hero": "Nina Trela"
+      },
+      {
+        "name": "Jen Fiskum",
+        "hero": "Ada Nieradka"
+      },
+      {
+        "name": "Michal Czernecki",
+        "hero": "Blazej Nieradka"
+      },
+      {
+        "name": "Miroslaw Kropielnicki",
+        "hero": "Antoni Paszke"
+      },
+      {
+        "name": "Andrzej Mastalerz",
+        "hero": "Jonasz"
+      },
+      {
+        "name": "Robert Gulaczyk",
+        "hero": "Pawel Piotrowski"
+      },
+      {
+        "name": "Paulina Galazka",
+        "hero": "Dorota"
+      },
+      {
+        "name": "Helena Englert",
+        "hero": "Agata Paszke"
+      },
+      {
+        "name": "Malgorzata Hajewska-Krzysztofik",
+        "hero": "Zofia Blawatska"
+      },
+      {
+        "name": "Piotr Trojan",
+        "hero": "Krzysztof Sobczyk"
+      },
+      {
+        "name": "Darren O'Hare",
+        "hero": "Krzysztof Sobczyk"
+      },
+      {
+        "name": "Dobromir Dymecki",
+        "hero": "Robert Paszke"
+      },
+      {
+        "name": "Rafal Cieszynski",
+        "hero": "Priest Roman Smigielski"
+      },
+      {
+        "name": "Krzysztof Siring",
+        "hero": "Sergeant major"
+      },
+      {
+        "name": "Bianka Pilitowska",
+        "hero": "Katarzyna Piotrowska"
+      },
+      {
+        "name": "Teresa Kwiatkowska",
+        "hero": "Housekeeper Bogumila"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Glitch",
+    "years": [2016, 2017, 2019],
+    "poster": "https://m.media-amazon.com/images/M/MV5BODk2YmE5MjEtMmQzNy00MzZjLTgxNDAtYTgzMThlZTg1M2E3XkEyXkFqcGdeQXVyMjIwNTI1MTM@._V1_QL75_UY281_CR5,0,190,281_.jpg",
+    "genres": ["drama", "horror", "sci-fi", "thriller"],
+    "description": "Seven people return from the dead with no memory and attempt to unveil what brought them to the grave in the first place.",
+    "rating": 7.2,
+    "cast": [
+      {
+        "name": "Patrick Brammall",
+        "hero": "James Hayes"
+      },
+      {
+        "name": "Emma Booth",
+        "hero": "Kate Willis"
+      },
+      {
+        "name": "Sean Keenan",
+        "hero": "Charlie Thompson"
+      },
+      {
+        "name": "Hannah Monson",
+        "hero": "Kirstie Darrow"
+      },
+      {
+        "name": "John Leary",
+        "hero": "Chris Rennox"
+      },
+      {
+        "name": "Rodger Corser",
+        "hero": "John Doe"
+      },
+      {
+        "name": "Aaron L. McGrath",
+        "hero": "Beau Cooper"
+      },
+      {
+        "name": "Genevieve O'Reilly",
+        "hero": "Elishia McKellar"
+      },
+      {
+        "name": "Emily Barclay",
+        "hero": "Sarah Hayes"
+      },
+      {
+        "name": "Ned Dennehy",
+        "hero": "Paddy Fitzgerald"
+      },
+      {
+        "name": "Rob Collins",
+        "hero": "Phil"
+      },
+      {
+        "name": "Lisa Flanagan",
+        "hero": "Kath"
+      },
+      {
+        "name": "Andrew McFarlane",
+        "hero": "Vic Eastley"
+      },
+      {
+        "name": "Luke Arnold",
+        "hero": "Owen Nilsson"
+      },
+      {
+        "name": "Pernilla August",
+        "hero": "Nicola Heysen"
+      },
+      {
+        "name": "Tessa Rose",
+        "hero": "Sharon"
+      },
+      {
+        "name": "Daniela Farinacci",
+        "hero": "Maria Massola"
+      },
+      {
+        "name": "Harry Tseng",
+        "hero": "Tam Chi Wai"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "The I-land",
+    "years": [2019],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDUxMDcxODYtODFhMi00YWI1LThmZjYtOTcwMDliMzk2ZGQ3XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["adventure", "drama", "mystery", "sci-fi"],
+    "description": "When ten people wake up on a treacherous island with no memory of who they are and how they got there, they set off on a trek to try to get back home, only to discover the world is not as it seems.",
+    "rating": 4.7,
+    "cast": [
+      {
+        "name": "Natalie Martinez",
+        "hero": "Chase"
+      },
+      {
+        "name": "Kate Bosworth",
+        "hero": "K.C."
+      },
+      {
+        "name": "Ronald Peet",
+        "hero": "Cooper"
+      },
+      {
+        "name": "Sibylla Deen",
+        "hero": "Blair"
+      },
+      {
+        "name": "Gilles Geary",
+        "hero": "Mason"
+      },
+      {
+        "name": "Kyle Schmid",
+        "hero": "Moses"
+      },
+      {
+        "name": "Anthony Lee Medina",
+        "hero": "Donovan"
+      },
+      {
+        "name": "Kota Eberhardt",
+        "hero": "Taylor"
+      },
+      {
+        "name": "KeiLyn Durrel Jones",
+        "hero": "Clyde"
+      },
+      {
+        "name": "Maria Conchita Alonso",
+        "hero": "Chase's Mother"
+      },
+      {
+        "name": "Clara Wong",
+        "hero": "Bonnie"
+      },
+      {
+        "name": "Dan Tymon",
+        "hero": "Michael"
+      },
+      {
+        "name": "Michelle Veintimilla",
+        "hero": "Hayden"
+      },
+      {
+        "name": "Margaret Colin",
+        "hero": "Doctor Stevenson"
+      },
+      {
+        "name": "Dalia Davi",
+        "hero": "Doctor Wyss"
+      },
+      {
+        "name": "Alex Pettyfer",
+        "hero": "Brody"
+      },
+      {
+        "name": "Victor Slezak",
+        "hero": "Doctor Dafoe"
+      },
+      {
+        "name": "Nicole Marines",
+        "hero": "Office Woman"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Travelers",
+    "years": [2016, 2017, 2018],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjUzOTQwOTg1MF5BMl5BanBnXkFtZTgwNzE4NzQ3NjM@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["suspense mystery", "time travel", "drama", "mystery", "sci-fi", "thriller"],
+    "description": "Hundreds of years from now, surviving humans discover how to send consciousness back through time, into people of the 21st century, while attempting to change the path of humanity.",
+    "rating": 8.0,
+    "cast": [
+      {
+        "name": "Eric McCormack",
+        "hero": "Grant MacLaren"
+      },
+      {
+        "name": "MacKenzie Porter",
+        "hero": "Marcy Warton"
+      },
+      {
+        "name": "Nesta Cooper",
+        "hero": "Carly Shannon"
+      },
+      {
+        "name": "Jared Abrahamson",
+        "hero": "Trevor Holden"
+      },
+      {
+        "name": "Reilly Dolman",
+        "hero": "Philip Pearson"
+      },
+      {
+        "name": "Patrick Gilmore",
+        "hero": "David Mailer"
+      },
+      {
+        "name": "Leah Cairns",
+        "hero": "Kathryn MacLaren"
+      },
+      {
+        "name": "J. Alex Brinson",
+        "hero": "Jeff Conniker"
+      },
+      {
+        "name": "Jennifer Spence",
+        "hero": "Grace Day"
+      },
+      {
+        "name": "Arnold Pinnock",
+        "hero": "Walt Forbes"
+      },
+      {
+        "name": "Kristine Cofsky",
+        "hero": "Officer Boyd"
+      },
+      {
+        "name": "William MacDonald",
+        "hero": "Gary Holden"
+      },
+      {
+        "name": "Ian Tracey",
+        "hero": "Ray"
+      },
+      {
+        "name": "Kimberley Sustad",
+        "hero": "Joanne Yates"
+      },
+      {
+        "name": "Ben Immanuel",
+        "hero": "Dr. Teslia"
+      },
+      {
+        "name": "Douglas Chapman",
+        "hero": "Luca"
+      },
+      {
+        "name": "Enrico Colantoni",
+        "hero": "Vincent Ingram"
+      },
+      {
+        "name": "Dylan Playfair",
+        "hero": "Kyle"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "If I Hadn't Met You",
+    "years": [2018],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzViYzNjYzMtZDU5ZS00MWY1LWEyZWItYjQ3ZGQyNjIzMjJkXkEyXkFqcGc@._V1_QL75_UX190_CR0,5,190,281_.jpg",
+    "genres": ["steamy romance", "drama", "fantasy", "romance", "sci-fi"],
+    "description": "A man who loses his family in a tragic accident discovers that he can travel to alternate universes, compelling him to find a world in which his family can be saved.",
+    "rating": 7.5,
+    "cast": [
+      {
+        "name": "Pablo Derqui",
+        "hero": "Eduard"
+      },
+      {
+        "name": "Andrea Ros",
+        "hero": "Elisa"
+      },
+      {
+        "name": "Javier Beltrán",
+        "hero": "Òscar"
+      },
+      {
+        "name": "Paula Malia",
+        "hero": "Clara"
+      },
+      {
+        "name": "Montse Guallar",
+        "hero": "Maria"
+      },
+      {
+        "name": "Òscar Jarque",
+        "hero": "Doble Eduard"
+      },
+      {
+        "name": "Mercedes Sampietro",
+        "hero": "Liz Everest"
+      },
+      {
+        "name": "David Vert",
+        "hero": "Pere"
+      },
+      {
+        "name": "Muguet Franc",
+        "hero": "Tere"
+      },
+      {
+        "name": "Abel Folk",
+        "hero": "Joan"
+      },
+      {
+        "name": "Sergi López",
+        "hero": "Manel"
+      },
+      {
+        "name": "Miquel García Borda",
+        "hero": "Lluís Antich"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Anthracite",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTc2NGVjZTMtYWNkZC00ZjMxLTk2MGItY2JkYjZhZDA1NzQzXkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": ["suspense mystery", "crime", "drama", "mystery", "thriller"],
+    "description": "An old case is wrenched open when a reporter goes missing, leading his web sleuth daughter to a small mountain town haunted by a sect, secrecy and death.",
+    "rating": 6.1,
+    "cast": [
+      {
+        "name": "Hatik",
+        "hero": "Jaro Gatsi"
+      },
+      {
+        "name": "Noémie Schmidt",
+        "hero": "Ida Heilman"
+      },
+      {
+        "name": "Camille Lou",
+        "hero": "Giovanna Deluca"
+      },
+      {
+        "name": "Nicolas Godart",
+        "hero": "Romeo Deluca"
+      },
+      {
+        "name": "Raphaël Ferret",
+        "hero": "Erwan le Floch"
+      },
+      {
+        "name": "Kad Merad",
+        "hero": "Claude Chevallier"
+      },
+      {
+        "name": "Jean-Marc Barr",
+        "hero": "Solal Heilman"
+      },
+      {
+        "name": "Stefano Cassetti",
+        "hero": "Caleb Johansson"
+      },
+      {
+        "name": "Etienne Diallo",
+        "hero": "Sofiane"
+      },
+      {
+        "name": "Jaa Smith-Johnson",
+        "hero": "Sofiane"
+      },
+      {
+        "name": "Marianne Basler",
+        "hero": "Valérie Faure"
+      },
+      {
+        "name": "Florence Muller",
+        "hero": "Marie Chevallier"
+      },
+      {
+        "name": "Romane de Stabenrath",
+        "hero": "Juliette Chevallier"
+      },
+      {
+        "name": "Léo Legrand",
+        "hero": "Hari Faure"
+      },
+      {
+        "name": "Vincent Rottiers",
+        "hero": "Vincent"
+      },
+      {
+        "name": "Anaïs Parello",
+        "hero": "Anaïs Aymard"
+      },
+      {
+        "name": "Isabelle Candelier",
+        "hero": "Carmela Deluca"
+      },
+      {
+        "name": "Bernard Blancan",
+        "hero": "Denis Monnier"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Marcella",
+    "years": [2016, 2018, 2020, 2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDVmZWI2NWItN2Q0ZC00NDIzLThkYjAtZWIzNzE3MmY2ZGJiXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    "genres": ["police procedural", "serial killer", "suspense mystery", "crime", "drama", "mystery"],
+    "description": "Marcella Backland left the Metropolitan Police for the sake of her family, only to have her husband leave her. She returns to her job on the murder squad, investigating a case that seems disturbingly familiar to her.",
+    "rating": 7.3,
+    "cast": [
+      {
+        "name": "Anna Friel",
+        "hero": "Marcella Backland"
+      },
+      {
+        "name": "Ray Panthaki",
+        "hero": "DI Rav Sangha"
+      },
+      {
+        "name": "Jack Doolan",
+        "hero": "DC Mark Travis"
+      },
+      {
+        "name": "Jamie Bamber",
+        "hero": "DCI Tim Williamson"
+      },
+      {
+        "name": "Nicholas Pinnock",
+        "hero": "Jason Backland"
+      },
+      {
+        "name": "Imogen Faires",
+        "hero": "Emma Backland"
+      },
+      {
+        "name": "Asher Flowers",
+        "hero": "Edward Backland"
+      },
+      {
+        "name": "Hugo Speer",
+        "hero": "Frank Young"
+      },
+      {
+        "name": "Sinéad Cusack",
+        "hero": "Sylvie Gibson"
+      },
+      {
+        "name": "Amanda Burton",
+        "hero": "Katherine Maguire"
+      },
+      {
+        "name": "Harry Lloyd",
+        "hero": "Henry Gibson"
+      },
+      {
+        "name": "Nina Sosanya",
+        "hero": "DCI Laura Porter"
+      },
+      {
+        "name": "Aaron McCusker",
+        "hero": "Finn Maguire"
+      },
+      {
+        "name": "Michael Colgan",
+        "hero": "Rory Maguire"
+      },
+      {
+        "name": "Kelly Gough",
+        "hero": "Stacey Barrett"
+      },
+      {
+        "name": "Josh Herdman",
+        "hero": "Eric Davidson"
+      },
+      {
+        "name": "Sophia Brown",
+        "hero": "DC LeAnn Hunter"
+      },
+      {
+        "name": "Charlie Covell",
+        "hero": "DC Alex Dier"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Baby Reindeer",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzlmY2E1OTUtMjEzZi00Y2YxLWI5NmMtZmZhOWZkMjIzMDJiXkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": ["biography", "drama"],
+    "description": "The story follows Donny's warped relationship with a female stalker and the impact it has on him as he is ultimately forced to face a deep, dark buried trauma.",
+    "rating": 7.7,
+    "cast": [
+      {
+        "name": "Richard Gadd",
+        "hero": "Donny Dunn"
+      },
+      {
+        "name": "Jessica Gunning",
+        "hero": "Martha Scott"
+      },
+      {
+        "name": "Nava Mau",
+        "hero": "Teri"
+      },
+      {
+        "name": "Michael Wildman",
+        "hero": "Greggsy"
+      },
+      {
+        "name": "Danny Kirrane",
+        "hero": "Gino"
+      },
+      {
+        "name": "Nina Sosanya",
+        "hero": "Liz"
+      },
+      {
+        "name": "Shalom Brune-Franklin",
+        "hero": "Keeley"
+      },
+      {
+        "name": "Thomas Coombes",
+        "hero": "Daniels"
+      },
+      {
+        "name": "Mark Lewis Jones",
+        "hero": "Gerry"
+      },
+      {
+        "name": "Amanda Root",
+        "hero": "Elle"
+      },
+      {
+        "name": "Alexandria Riley",
+        "hero": "Culver"
+      },
+      {
+        "name": "Tom Goodman-Hill",
+        "hero": "Darrien"
+      },
+      {
+        "name": "Tom Durant Pritchard",
+        "hero": "Jason"
+      },
+      {
+        "name": "Hugh Coles",
+        "hero": "Francis"
+      },
+      {
+        "name": "Josh Finan",
+        "hero": "Diggsy"
+      },
+      {
+        "name": "Jim Caesar",
+        "hero": "Bijou"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "The Gift",
+    "years": [2019, 2020, 2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjJhMjZmNmQtNTc2MS00NGEwLTg3Y2MtMDFkOGU4ZjNjMjdmXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["drama", "fantasy", "mystery", "romance"],
+    "description": "A painter in Istanbul embarks on a personal journey as she unearths universal secrets about an Anatolian archaeological site and its link to her past.",
+    "rating": 7.0,
+    "cast": [
+      {
+        "name": "Beren Saat",
+        "hero": "Atiye"
+      },
+      {
+        "name": "Mehmet Günsür",
+        "hero": "Erhan"
+      },
+      {
+        "name": "Melisa Senolsun",
+        "hero": "Cansu"
+      },
+      {
+        "name": "Metin Akdülger",
+        "hero": "Ozan"
+      },
+      {
+        "name": "Civan Canova",
+        "hero": "Mustafa"
+      },
+      {
+        "name": "Basak Köklükaya",
+        "hero": "Serap"
+      },
+      {
+        "name": "Tim Seyfi",
+        "hero": "Serdar"
+      },
+      {
+        "name": "Senan Kara",
+        "hero": "Melek"
+      },
+      {
+        "name": "Meral Çetinkaya",
+        "hero": "Zühre"
+      },
+      {
+        "name": "Hazal Türesan",
+        "hero": "Hannah"
+      },
+      {
+        "name": "Fatih Al",
+        "hero": "Nazim"
+      },
+      {
+        "name": "Lara Tonka",
+        "hero": "Aden"
+      },
+      {
+        "name": "Selma Ergeç",
+        "hero": "Umut"
+      },
+      {
+        "name": "Sibel Melek Arat",
+        "hero": "Seher"
+      },
+      {
+        "name": "Cezmi Baskin",
+        "hero": "Öner"
+      },
+      {
+        "name": "Beren Senol",
+        "hero": "Child"
+      },
+      {
+        "name": "Ezgi Durukan",
+        "hero": ""
+      },
+      {
+        "name": "Melisa Akman",
+        "hero": "Anima"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Bodkin",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDIxYmRkZTMtZTJmNi00Y2M0LWJhOWItYjJkYjQyY2Q2Njg3XkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "genres": ["bumbling detective", "dark comedy", "comedy", "drama", "thriller"],
+    "description": "A group of podcasters sets out to investigate the mysterious disappearance of three strangers in an idyllic Irish town. But when they start to pull the strings, they find a story much bigger and stranger than they expected.",
+    "rating": 6.9,
+    "cast": [
+      {
+        "name": "Siobhán Cullen",
+        "hero": "Dove Maloney"
+      },
+      {
+        "name": "Robyn Cara",
+        "hero": "Emmy Sizergh"
+      },
+      {
+        "name": "Chris Walley",
+        "hero": "Seán O'Shea"
+      },
+      {
+        "name": "David Wilmot",
+        "hero": "Seamus Gallagher"
+      },
+      {
+        "name": "Will Forte",
+        "hero": "Gilbert Power"
+      },
+      {
+        "name": "Pom Boyd",
+        "hero": "Mrs. O'Shea"
+      },
+      {
+        "name": "Ger Kelly",
+        "hero": "Teddy"
+      },
+      {
+        "name": "Seán Óg Cairns",
+        "hero": "Garda Eoin"
+      },
+      {
+        "name": "Charlie Kemp",
+        "hero": "Damien"
+      },
+      {
+        "name": "Kerri McLean",
+        "hero": "Maeve"
+      },
+      {
+        "name": "David Pearse",
+        "hero": "Frank"
+      },
+      {
+        "name": "Amy Conroy",
+        "hero": "Fagan"
+      },
+      {
+        "name": "Denis Conway",
+        "hero": "Sergeant Power"
+      },
+      {
+        "name": "Charlie Kelly",
+        "hero": "Fintan"
+      },
+      {
+        "name": "Peter Bankolé",
+        "hero": "Charles"
+      },
+      {
+        "name": "Sabine Timoteo",
+        "hero": "Annika"
+      },
+      {
+        "name": "Mae Higgins",
+        "hero": "Jo"
+      },
+      {
+        "name": "John Olohan",
+        "hero": "Barry"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Eric",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTkwZDFjOTUtYTA4My00MjgzLTlhMGQtMGYwNTNmYTkzODgzXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["crime", "drama", "thriller"],
+    "description": "Vincent, a grief-stricken father whose son goes missing, finds solace through his friendship with Eric, the monster that lives under Edgar's bed.",
+    "rating": 6.9,
+    "cast": [
+      {
+        "name": "Benedict Cumberbatch",
+        "hero": "Vincent"
+      },
+      {
+        "name": "Gaby Hoffmann",
+        "hero": "Cassie"
+      },
+      {
+        "name": "Dan Fogler",
+        "hero": "Lennie"
+      },
+      {
+        "name": "McKinley Belcher III",
+        "hero": "Ledroit"
+      },
+      {
+        "name": "Ivan Morris Howe",
+        "hero": "Edgar"
+      },
+      {
+        "name": "Bamar Kane",
+        "hero": "Yuusuf"
+      },
+      {
+        "name": "José Pimentão",
+        "hero": "Sebastian"
+      },
+      {
+        "name": "Jeff Hephner",
+        "hero": "Costello"
+      },
+      {
+        "name": "Erika Soto",
+        "hero": "Tina"
+      },
+      {
+        "name": "Donald Sage Mackay",
+        "hero": "Jerry"
+      },
+      {
+        "name": "Wade Allain-Marcus",
+        "hero": "Gator"
+      },
+      {
+        "name": "David Denman",
+        "hero": "Cripp"
+      },
+      {
+        "name": "Ioachim Ciobanu",
+        "hero": "Misha"
+      },
+      {
+        "name": "Adepero Oduye",
+        "hero": "Cecile"
+      },
+      {
+        "name": "Roberta Colindrez",
+        "hero": "Ronnie"
+      },
+      {
+        "name": "Chloe Claudel",
+        "hero": "Ellis"
+      },
+      {
+        "name": "Simon Manyonda",
+        "hero": "Jackson"
+      },
+      {
+        "name": "Clarke Peters",
+        "hero": "George"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Better Than Us",
+    "years": [2018, 2019],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzdkYTMzODktM2EwNy00ZTQ1LThmMTUtZTNkZDQwMDQxYTUzXkEyXkFqcGc@._V1_QL75_UY281_CR6,0,190,281_.jpg",
+    "genres": ["drama", "sci-fi"],
+    "description": "A family on the brink of splitting up become the owners of a cutting-edge robot being sought by a corporation, homicide investigators and terrorists.",
+    "rating": 7.3,
+    "cast": [
+      {
+        "name": "Paulina Andreeva",
+        "hero": "Arisa"
+      },
+      {
+        "name": "Kirill Käro",
+        "hero": "Georgy Nikolaevich Safronov"
+      },
+      {
+        "name": "Aleksandr Ustyugov",
+        "hero": "Victor Pavlovich Toropov"
+      },
+      {
+        "name": "Olga Lomonosova",
+        "hero": "Alla Safronova"
+      },
+      {
+        "name": "Eldar Kalimulin",
+        "hero": "Egor Georgievich Safronov"
+      },
+      {
+        "name": "Vitaliya Kornienko",
+        "hero": "Sonya Safronova"
+      },
+      {
+        "name": "Vera Kincheva",
+        "hero": "Jeanne Barseneva"
+      },
+      {
+        "name": "Fyodor Lavrov",
+        "hero": "Gleb"
+      },
+      {
+        "name": "Sergey Sosnovskiy",
+        "hero": "Alexei Stepanovich Losev"
+      },
+      {
+        "name": "Kirill Polukhin",
+        "hero": "Pavel Borishovich Varlamov"
+      },
+      {
+        "name": "Pavel Vorozhtsov",
+        "hero": "Igor Mikhailovich Maslovsky"
+      },
+      {
+        "name": "Victor Solovyev",
+        "hero": "Nikolai Sergeevich Safronov"
+      },
+      {
+        "name": "Irina Tarannik",
+        "hero": "Svetlana Alexeyevna Toropova"
+      },
+      {
+        "name": "Maksim Derichev",
+        "hero": "Maxim"
+      },
+      {
+        "name": "Aleksandr Patsevich",
+        "hero": "Bot Recycler"
+      },
+      {
+        "name": "Viktoriya Korlyakova",
+        "hero": "Irina Plescheeva"
+      },
+      {
+        "name": "Vladimir Lukyanchikov",
+        "hero": "Zahar"
+      },
+      {
+        "name": "Ivan Kosichkin",
+        "hero": "Vladimir Petrenko"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Sense8",
+    "years": [2015, 2016, 2017, 2018],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA4MTEyMzcwMl5BMl5BanBnXkFtZTgwMTIwODczNTM@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["drama", "mystery", "sci-fi", "thriller"],
+    "description": "A group of people around the world are suddenly linked mentally, and must find a way to survive being hunted by those who see them as a threat to the world's order.",
+    "rating": 8.2,
+    "cast": [
+      {
+        "name": "Bae Doona",
+        "hero": "Sun Bak"
+      },
+      {
+        "name": "Jamie Clayton",
+        "hero": "Nomi Marks"
+      },
+      {
+        "name": "Tina Desai",
+        "hero": "Kala Dandekar"
+      },
+      {
+        "name": "Tuppence Middleton",
+        "hero": "Riley Blue"
+      },
+      {
+        "name": "Max Riemelt",
+        "hero": "Wolfgang Bogdanow"
+      },
+      {
+        "name": "Miguel Ángel Silvestre",
+        "hero": "Lito Rodriguez"
+      },
+      {
+        "name": "Brian J. Smith",
+        "hero": "Will Gorski"
+      },
+      {
+        "name": "Daryl Hannah",
+        "hero": "Angelica Turing"
+      },
+      {
+        "name": "Freema Agyeman",
+        "hero": "Amanita Caplan"
+      },
+      {
+        "name": "Alfonso Herrera",
+        "hero": "Hernando Fuentes"
+      },
+      {
+        "name": "Terrence Mann",
+        "hero": "Whispers"
+      },
+      {
+        "name": "Eréndira Ibarra",
+        "hero": "Daniela Velázquez"
+      },
+      {
+        "name": "Naveen Andrews",
+        "hero": "Jonas Maliki"
+      },
+      {
+        "name": "Purab Kohli",
+        "hero": "Rajan Rasal"
+      },
+      {
+        "name": "Max Mauff",
+        "hero": "Felix Berner"
+      },
+      {
+        "name": "Paul Ogola",
+        "hero": "Jela"
+      },
+      {
+        "name": "Chichi Seii",
+        "hero": "Shiro"
+      },
+      {
+        "name": "Michael X. Sommers",
+        "hero": "Bug"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "The Cloverfield Paradox",
+    "years": [2018],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTAwOTIxMDA0MjZeQTJeQWpwZ15BbWU4MDg1MjgzNzQz._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["body horror", "space sci-fi", "action", "horror", "sci-fi", "thriller"],
+    "description": "Orbiting a planet on the brink of war, scientists test a device to solve an energy crisis, and end up face-to-face with a dark alternate reality.",
+    "rating": 5.5,
+    "cast": [
+      {
+        "name": "Gugu Mbatha-Raw",
+        "hero": "Hamilton"
+      },
+      {
+        "name": "David Oyelowo",
+        "hero": "Kiel"
+      },
+      {
+        "name": "Daniel Brühl",
+        "hero": "Schmidt"
+      },
+      {
+        "name": "John Ortiz",
+        "hero": "Monk"
+      },
+      {
+        "name": "Chris O'Dowd",
+        "hero": "Mundy"
+      },
+      {
+        "name": "Aksel Hennie",
+        "hero": "Volkov"
+      },
+      {
+        "name": "Ziyi Zhang",
+        "hero": "Tam"
+      },
+      {
+        "name": "Elizabeth Debicki",
+        "hero": "Jensen"
+      },
+      {
+        "name": "Roger Davies",
+        "hero": "Michael"
+      },
+      {
+        "name": "Clover Nee",
+        "hero": "Molly"
+      },
+      {
+        "name": "Jordan Rivera",
+        "hero": "Ayana Age 7"
+      },
+      {
+        "name": "Michael Stokes III",
+        "hero": "Isaac Age 7"
+      },
+      {
+        "name": "Celeste Clark",
+        "hero": "Ayana Age 4"
+      },
+      {
+        "name": "Nathan Oliver",
+        "hero": "Isaac Age 4"
+      },
+      {
+        "name": "Donal Logue",
+        "hero": "Mark Stambler"
+      },
+      {
+        "name": "Suzanne Cryer",
+        "hero": "Newscaster"
+      },
+      {
+        "name": "Ken Olin",
+        "hero": "Radio (voice)"
+      },
+      {
+        "name": "Simon Pegg",
+        "hero": "Radio (voice)"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Supacell",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjk1MGM0ZmMtOGYwYS00ZTdiLTgxYzItOGM1NTZmNGEwMGI4XkEyXkFqcGc@._V1_QL75_UY281_CR6,0,190,281_.jpg",
+    "genres": ["superhero", "action", "adventure", "drama", "sci-fi"],
+    "description": "A group of seemingly ordinary people from South London unexpectedly develop super powers.",
+    "rating": 7.0,
+    "cast": [
+      {
+        "name": "Tosin Cole",
+        "hero": "Michael Lasaki-Brown"
+      },
+      {
+        "name": "Nadine Mills",
+        "hero": "Sabrina Clarke"
+      },
+      {
+        "name": "Josh Tedeku",
+        "hero": "Tazer"
+      },
+      {
+        "name": "Eric Kofi Abrefa",
+        "hero": "Andre Simpson"
+      },
+      {
+        "name": "Adelayo Adedayo",
+        "hero": "Dionne Ofori"
+      },
+      {
+        "name": "Calvin Demba",
+        "hero": "Rodney Cullen"
+      },
+      {
+        "name": "Rayxia Ojo",
+        "hero": "Sharleen Clarke"
+      },
+      {
+        "name": "Ky-Mani Carty",
+        "hero": "AJ Simpson"
+      },
+      {
+        "name": "Michael Salami",
+        "hero": "Gabriel"
+      },
+      {
+        "name": "Giacomo Mancini",
+        "hero": "Spud"
+      },
+      {
+        "name": "Mickira Oji",
+        "hero": "Skreamer"
+      },
+      {
+        "name": "Xavien Russell",
+        "hero": "Dots"
+      },
+      {
+        "name": "Andy Thompson",
+        "hero": "Twosie"
+      },
+      {
+        "name": "Ghetts",
+        "hero": "Krazy"
+      },
+      {
+        "name": "Pamela Jikiemi",
+        "hero": "Tina Brown"
+      },
+      {
+        "name": "Sanchez Brown",
+        "hero": "Energy Hunter"
+      },
+      {
+        "name": "Kojo Attah",
+        "hero": "Strong Hunter"
+      },
+      {
+        "name": "Duayne Boachie",
+        "hero": "Braggs"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Chosen",
+    "years": [2022],
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTdiYTZiYzEtYTY0NC00YjQ5LWI1MjktZGRlNzVmZTA1ODRmXkEyXkFqcGc@._V1_QL75_UY281_CR1,0,190,281_.jpg",
+    "genres": ["alien invasion", "drama", "mystery", "sci-fi", "thriller"],
+    "description": "A teenager finds her world turned upside down when she discovers the disturbing truth lurking in her sleepy Danish town.",
+    "rating": 4.7,
+    "cast": [
+      {
+        "name": "Malaika Berenth Mosendane",
+        "hero": "Emma"
+      },
+      {
+        "name": "Andrea Heick Gadeberg",
+        "hero": "Marie"
+      },
+      {
+        "name": "Andreas Dittmer",
+        "hero": "Frederik"
+      },
+      {
+        "name": "Albert Rudbeck Lindhardt",
+        "hero": "Mads"
+      },
+      {
+        "name": "Mohamed Djeziri",
+        "hero": "Elvis"
+      },
+      {
+        "name": "Anders Heinrichsen",
+        "hero": "Lukas"
+      },
+      {
+        "name": "Anouar H. Smaine",
+        "hero": "Gunther"
+      },
+      {
+        "name": "Magnus Juhl Andersen",
+        "hero": "Jonas"
+      },
+      {
+        "name": "Line Kruse",
+        "hero": "Lykke"
+      },
+      {
+        "name": "Marie Louise Wille",
+        "hero": "Susan"
+      },
+      {
+        "name": "Rikke Eberhardt Isen",
+        "hero": "Leyla"
+      },
+      {
+        "name": "Henrik Prip",
+        "hero": "Hans"
+      },
+      {
+        "name": "Nicolaj Kopernikus",
+        "hero": "Adrian"
+      },
+      {
+        "name": "Ken Vedsegaard",
+        "hero": "Thomas"
+      },
+      {
+        "name": "Eva Jin",
+        "hero": "Zannie"
+      },
+      {
+        "name": "Victor Pøhl",
+        "hero": "Nikolaj"
+      },
+      {
+        "name": "Jonas Munck Hansen",
+        "hero": "John Dinckler"
+      },
+      {
+        "name": "Sarah Rose Clear",
+        "hero": "Noreen"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Homicide: Los Angeles",
+    "years": [2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGRiMGMyNmQtZjk5NS00ZmU4LWJhNTctMjhiZjI5Y2E5YzBmXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    "genres": ["crime", "documentary"],
+    "description": "Documentary series focusing on detectives and prosecutors as they revisit their most challenging homicide cases in the city of Los Angeles, California.",
+    "rating": 7.1,
+    "cast": [
+      {
+        "name": "Chiyeko Jones",
+        "hero": "Allison Triarsi"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Sisyphus: The Myth",
+    "years": [2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzgxOWEwNjUtZWVmNS00MzczLWE1NjItNDEzN2Y4MWFiMzdlXkEyXkFqcGc@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+    "genres": [
+      "korean drama",
+      "time travel",
+      "action",
+      "drama",
+      "fantasy",
+      "mystery",
+      "romance",
+      "sci-fi"
+    ],
+    "description": "An unfathomable incident introduces a genius engineer to dangerous secrets of the world, and to a woman from the future who's come looking for him.",
+    "rating": 7.0,
+    "cast": [
+      {
+        "name": "Cho Seung-woo",
+        "hero": "Han Tae Sul"
+      },
+      {
+        "name": "Park Shin-hye",
+        "hero": "Kang Seo Hae"
+      },
+      {
+        "name": "Dawn Anderson",
+        "hero": "Flight Attendant"
+      },
+      {
+        "name": "Andrew Lee",
+        "hero": "Additional voices"
+      },
+      {
+        "name": "Lee Hyun Jun",
+        "hero": "Member of Control Bureau"
+      },
+      {
+        "name": "Tae In-ho",
+        "hero": "Edward 'Eddy' Kim"
+      },
+      {
+        "name": "Halley Kim",
+        "hero": "Kim Seo Jin"
+      },
+      {
+        "name": "Sung Dong-il",
+        "hero": "President Park"
+      },
+      {
+        "name": "Jeong Hye-in",
+        "hero": "Kim Seo Jin"
+      },
+      {
+        "name": "Kim Jong-tae",
+        "hero": "Kang Dong Ki"
+      },
+      {
+        "name": "Chae Jong-hyeop",
+        "hero": "Choi Jae Sun"
+      },
+      {
+        "name": "Hao Feng",
+        "hero": "Choi Jae Sun"
+      },
+      {
+        "name": "Choi Jung-woo",
+        "hero": "Hwang Hyun Seung"
+      },
+      {
+        "name": "Jung Ha-Joon",
+        "hero": "Uhm Seon Ho"
+      },
+      {
+        "name": "Yuuki Luna",
+        "hero": "Bing Bing"
+      },
+      {
+        "name": "Kim Byeong-cheol",
+        "hero": "Sigma"
+      },
+      {
+        "name": "Lee Si-woo",
+        "hero": "Bing Bing"
+      },
+      {
+        "name": "Lee Myeong-Ro",
+        "hero": "Uhm Seon Jae"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Biohackers",
+    "years": [2020, 2021],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDJhYjU1ZDItMDM1ZC00YWZkLTk4YjctM2ZhNTQ3ZjcyMjYwXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    "genres": ["drama", "sci-fi", "thriller"],
+    "description": "A fast-paced thriller following medical student Mia Akerlund who discovers the use of highly advanced biohacking technology in her university town.",
+    "rating": 6.8,
+    "cast": [
+      {
+        "name": "Luna Wedler",
+        "hero": "Mia"
+      },
+      {
+        "name": "Jessica Schwarz",
+        "hero": "Prof. Tanja Lorenz"
+      },
+      {
+        "name": "Thomas Prenn",
+        "hero": "Niklas"
+      },
+      {
+        "name": "Adrian Julius Tillmann",
+        "hero": "Jasper"
+      },
+      {
+        "name": "Jing Xiang",
+        "hero": "Chen-Lu"
+      },
+      {
+        "name": "Caro Cult",
+        "hero": "Lotta"
+      },
+      {
+        "name": "Sebastian Jakob Doppelbauer",
+        "hero": "Ole"
+      },
+      {
+        "name": "Benno Fürmann",
+        "hero": "Dr. Andreas Winter"
+      },
+      {
+        "name": "Thomas Kretschmann",
+        "hero": "Baron von Fürstenberg"
+      },
+      {
+        "name": "John Omohundro",
+        "hero": "Niklas"
+      },
+      {
+        "name": "Jascha Rust",
+        "hero": "Uli von Fürstenberg"
+      },
+      {
+        "name": "Nina Zorzi",
+        "hero": "Little Mia"
+      },
+      {
+        "name": "Cristina Andrione",
+        "hero": "Mother at Ice"
+      },
+      {
+        "name": "Sebastian Gerasch",
+        "hero": "Father Engels"
+      },
+      {
+        "name": "Simon Tiefenbacher",
+        "hero": "Ben Engels"
+      },
+      {
+        "name": "Edith Saldanha",
+        "hero": "Monique"
+      },
+      {
+        "name": "Viviane Herrn",
+        "hero": "Little daughter"
+      },
+      {
+        "name": "Eleonore Daniel",
+        "hero": "Business Woman"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Snowpiercer",
+    "years": [2020, 2021, 2022, 2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmM1ODg0MjktY2U3ZC00ZDc4LTkxMjAtMzljY2VkZmI3MmE5XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["dystopian sci-fi", "action", "drama", "sci-fi", "thriller"],
+    "description": "Seven years after the world has become a frozen wasteland, the remnants of humanity inhabit a perpetually-moving train that circles the globe, where class warfare, social injustice and the politics of survival play out.",
+    "rating": 6.9,
+    "cast": [
+      {
+        "name": "Daveed Diggs",
+        "hero": "Andre Layton"
+      },
+      {
+        "name": "Mickey Sumner",
+        "hero": "Bess Till"
+      },
+      {
+        "name": "Alison Wright",
+        "hero": "Ruth Wardell"
+      },
+      {
+        "name": "Iddo Goldberg",
+        "hero": "Bennett Knox"
+      },
+      {
+        "name": "Roberto Urbina",
+        "hero": "Javier de La Torre"
+      },
+      {
+        "name": "Lena Hall",
+        "hero": "Miss Audrey"
+      },
+      {
+        "name": "Katie McGuinness",
+        "hero": "Josie Wellstead"
+      },
+      {
+        "name": "Rowan Blanchard",
+        "hero": "Alexandra Cavill"
+      },
+      {
+        "name": "Sheila Vand",
+        "hero": "Zarah Ferami"
+      },
+      {
+        "name": "Sam Otto",
+        "hero": "John Osweiller"
+      },
+      {
+        "name": "Karin Konoval",
+        "hero": "Dr. Pelton"
+      },
+      {
+        "name": "Kwasi Thomas",
+        "hero": "Z-Wreck"
+      },
+      {
+        "name": "Annalise Basso",
+        "hero": "LJ Folger"
+      },
+      {
+        "name": "Miranda Edwards",
+        "hero": "Lights"
+      },
+      {
+        "name": "Mike O'Malley",
+        "hero": "Sam Roche"
+      },
+      {
+        "name": "Jennifer Connelly",
+        "hero": "Melanie Cavill"
+      },
+      {
+        "name": "Sean Bean",
+        "hero": "Joseph Wilford"
+      },
+      {
+        "name": "Sakina Jaffrey",
+        "hero": "Dr. Headwood"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Unsolved Mysteries",
+    "years": [2020, 2022, 2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzM0ZDBlNTAtMDVkYi00OGEwLThjNGYtNGNmZTNhNzYzMDc3XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["crime documentary", "docuseries", "true crime", "crime", "documentary", "mystery"],
+    "description": "Immersive, character-driven stories are rooted in the experiences of ordinary people who have lived the unthinkable. Families, detectives and journalists hope viewers hold the clues to solving these mysteries.",
+    "rating": 7.3,
+    "cast": []
+  },
+  {
+    "id": 47,
+    "title": "Squid Game",
+    "years": [2021, 2024, 2025],
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTYzMTlmNDctNmVkNS00YzRlLWE5MjAtODdjZWRkYzRlNWVlXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": [
+      "conspiracy thriller",
+      "korean drama",
+      "psychological drama",
+      "suspense mystery",
+      "action",
+      "drama",
+      "mystery",
+      "thriller"
+    ],
+    "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes: a survival game that has a whopping 45.6 billion-won prize at stake.",
+    "rating": 8.0,
+    "cast": [
+      {
+        "name": "Lee Jung-jae",
+        "hero": "Seong Gi-hun"
+      },
+      {
+        "name": "Park Hae-soo",
+        "hero": "Cho Sang-woo"
+      },
+      {
+        "name": "Nandito Hidayattullah Putra",
+        "hero": "Nandito"
+      },
+      {
+        "name": "Yasushi Iwaki",
+        "hero": "Others"
+      },
+      {
+        "name": "Wi Ha-joon",
+        "hero": "Hwang Jun-ho"
+      },
+      {
+        "name": "Hoyeon",
+        "hero": "Kang Sae-byeok"
+      },
+      {
+        "name": "Oh Yeong-su",
+        "hero": "Oh Il-nam"
+      },
+      {
+        "name": "Heo Sung-tae",
+        "hero": "Jang Deok-su"
+      },
+      {
+        "name": "Anupam Tripathi",
+        "hero": "Ali Abdul"
+      },
+      {
+        "name": "Greg Chun",
+        "hero": "Seong Gi-hun"
+      },
+      {
+        "name": "Stephen Fu",
+        "hero": "Cho Sang-woo"
+      },
+      {
+        "name": "Jeon Young-soo",
+        "hero": "Game Guide"
+      },
+      {
+        "name": "Tom Choi",
+        "hero": "Front Man"
+      },
+      {
+        "name": "Vivian Lu",
+        "hero": "Kang Sae-byeok"
+      },
+      {
+        "name": "Rama Vallury",
+        "hero": "Ali Abdul"
+      },
+      {
+        "name": "Lee Byung-hun",
+        "hero": "Front Man"
+      },
+      {
+        "name": "Kim Joo-ryung",
+        "hero": "Han Mi-nyeo"
+      },
+      {
+        "name": "Kim Byeong-cheol",
+        "hero": "Instructions Guard"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Gyeongseong Creature",
+    "years": [2023, 2024],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWI1N2I5ZGQtNTFkMC00MjIxLTgxNTQtZTgzNDU2YjhkN2JkXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["korean drama", "action", "drama", "history", "horror", "mystery", "thriller"],
+    "description": "In Spring 1945 in Gyeongseong, during Japanese rule over Korea, two young adults confront a strange creature born of greed, and battle against it for survival.",
+    "rating": 7.3,
+    "cast": [
+      {
+        "name": "Ahn Ji-ho",
+        "hero": "Park Beom-oh"
+      },
+      {
+        "name": "Park Seo-joon",
+        "hero": "Jang Tae-sang"
+      },
+      {
+        "name": "Han So-hee",
+        "hero": "Yoon Chae-ok"
+      },
+      {
+        "name": "Wi Ha-joon",
+        "hero": "Kwon Jun-taek"
+      },
+      {
+        "name": "Jo Han-chul",
+        "hero": "Yoon Joong-won"
+      },
+      {
+        "name": "Kim Hae-sook",
+        "hero": "Nawol-daek"
+      },
+      {
+        "name": "Choi Young-joon",
+        "hero": "Lieutenant General Kato"
+      },
+      {
+        "name": "Keisuke Hoashi",
+        "hero": "Dr. Ichiro"
+      },
+      {
+        "name": "June Angela",
+        "hero": "Nawol-daek"
+      },
+      {
+        "name": "Andrew Lee",
+        "hero": "Kwon Jun-taek"
+      },
+      {
+        "name": "Woo Ji-hyeon",
+        "hero": "Ryu Sachimoto"
+      },
+      {
+        "name": "Ell",
+        "hero": "Myeong-ja"
+      },
+      {
+        "name": "Tom Choi",
+        "hero": "Jung-Won"
+      },
+      {
+        "name": "Steven Lim",
+        "hero": "Gap-pyeong"
+      },
+      {
+        "name": "Ji Woo",
+        "hero": "Myeong-ja"
+      },
+      {
+        "name": "Hyun Bong-sik",
+        "hero": "Dr. Ichiro"
+      },
+      {
+        "name": "Claudia Kim",
+        "hero": "Maeda"
+      },
+      {
+        "name": "Park Ji-hwan",
+        "hero": "Goo Gap Pyung"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Manifest",
+    "years": [2018, 2019, 2020, 2021, 2022, 2023],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTFlNjg0YjAtYzMwOC00Zjc0LTkwYjAtZmRiYzdjNjcyYjc2XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "genres": ["suspense mystery", "time travel", "drama", "mystery", "sci-fi", "thriller"],
+    "description": "When a commercial airliner suddenly reappears after being missing for five years, those aboard must reintegrate into society.",
+    "rating": 7.0,
+    "cast": [
+      {
+        "name": "",
+        "hero": ""
+      },
+      {
+        "name": "Melissa Roxburgh",
+        "hero": "Michaela Stone"
+      },
+      {
+        "name": "Josh Dallas",
+        "hero": "Ben Stone"
+      },
+      {
+        "name": "J.R. Ramirez",
+        "hero": "Jared Vasquez"
+      },
+      {
+        "name": "Luna Blaise",
+        "hero": "Olive Stone"
+      },
+      {
+        "name": "Parveen Kaur",
+        "hero": "Saanvi Bahl"
+      },
+      {
+        "name": "Matt Long",
+        "hero": "Zeke Landon"
+      },
+      {
+        "name": "Daryl Edwards",
+        "hero": "Robert Vance"
+      },
+      {
+        "name": "Athena Karkanis",
+        "hero": "Grace Stone"
+      },
+      {
+        "name": "Jack Messina",
+        "hero": "Cal Stone"
+      },
+      {
+        "name": "Holly Taylor",
+        "hero": "Angelina Meyer"
+      },
+      {
+        "name": "Ellen Tamaki",
+        "hero": "Drea Mikami"
+      },
+      {
+        "name": "Ty Doran",
+        "hero": "Cal Stone"
+      },
+      {
+        "name": "Jared Grimes",
+        "hero": "Adrian"
+      },
+      {
+        "name": "Garrett Wareing",
+        "hero": "TJ Morrison"
+      },
+      {
+        "name": "Ali Lopez-Sohaili",
+        "hero": "Eagan Tehrani"
+      },
+      {
+        "name": "Malachy Cleary",
+        "hero": "Steve Stone"
+      },
+      {
+        "name": "Ed Herbstman",
+        "hero": "Troy Davis"
+      },
+      {
+        "name": "Mugga",
+        "hero": "Bethany Collins"
+      }
+    ]
+  }
+]

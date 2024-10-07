@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <script>
+            function doIt(data){
+
+                // take all genres of all movies, remove duplicates and sort them alphabetically
+                const allGenres = [...new Set(data.map(x => x.genre).flat())].sort();
+                // take all the genres consisted of 1 word
+                const someGenres = allGenres.filter(x => x.split(' ').length === 1);
+                // take all movies that include "crime" in their genres
+                const crime = data.filter(x => x.genre.includes('crime'));
+                // take the first 10 movies with highest rating number
+                const topMovies = data.sort((a, b) => b.rating - a.rating).slice(0, 10);
+                function getMovieById(id){
+                    return data.find(m => m.id === id);
+                };
+                const lookForActor = "Bae Doona";
+                // filter movies according to cast > actor/ress name
+                const moviesWithActor = data.filter(m => m.cast.find(a => a.name === lookForActor));
+                const shortList = data.map((show) => { return { "title": show.title, "years": show.years } });
+                console.log(allGenres);
+                console.log(someGenres);
+                console.log(crime);
+                console.log(topMovies);
+                console.log(getMovieById(13));
+                console.log(moviesWithActor);
+                console.log(shortList);
+
+                function initials(name){
+                    // take the first letter of words joined by non word characters and capitalize them
+                    return name.match(/\b\w/g).join('').toUpperCase();
+                }
+
+                const actor = "Dimosthenis Tsevas";
+                const actress = "Elizabeth Seagrave-Lazarides";
+                console.log(`actor: ${actor}, initials: ${initials(actor)} / actress: ${actress}, initials: ${initials(actress)}`);
+
+                const user = {
+                    id: 0,
+                    name: "Guest User",
+                    initial: "G",
+                    image: null,
+                    favorites: [1, 2, 38, 43, 48],
+                    favoriteGenres: ["sci-fi", "crime", "mystery", "thriller", "action"],
+                    notifications: {
+                        alert: true,
+                        messages: [
+                            {
+                                date: 1728031514,
+                                title: "Welcome to My TV Shows",
+                                text: "<p>Here you will find information of the TV shows I have watched or I have planned to watch.</p><p>Information includes genres, description, poster, years aired and the cast starring</p>"
+                            },
+                            {
+                                date: 1728117923,
+                                title: "Favorites functionality",
+                                text: "<p>Please have the chance to mark your favorites shows and then go to your Favorites section to examine the list.</p>"
+                            }
+                        ]
+                    }
+                }
+
+                const theme = {
+                    theme: "light",
+                    lang: "en",
+                    sidebar: "open",
+                    share: {
+                        facebook: true,
+                        twitter: true,
+                        linkedin: false,
+                        viber: true,
+                        whatsapp: true,
+                        email: true
+                    }
+                }
+
+
+            };
+            fetch('dimosthenis_tv_shows.json')
+                .then(response => response.json())
+                .then(data => { doIt(data); });
+        </script>
+    </head>
+    <body>
+        font: Inter
+
+        Header / Main / Footer
+        Pages:
+            • Homepage
+            • Movie Page
+            • Actor's Page
+        Widgets:
+            • Left sidebar
+            • User top right Widget
+        
+        Menus:
+            Header: Home/Top10/, Notifications/User(Messages/Favorites/FavoriteGenres)
+            Sidebar: Genres/Favorites/Settings
+
+        icons:
+            user
+            notification
+            star
+            heart
+            sun/moon
+            logout
+            close
+            search
+            arrow down (chevron)
+            arrow right (chevron)
+            facebook
+            twitter
+            viber
+            whatsapp
+            email
+        
+        React
+        ReactRouter
+        React-i18n
+        TailwindCSS
+
+        theme:
+        • dark:
+            --color-primary: '#054e6f'
+            --color-primary-variant: '#14f4f4'
+            --color-secondary: '#ffd900'
+            --color-error: '#ff207a'
+            --color-success: '#67c50a'
+            --color-titlecolor: '#ffffff'
+            --color-textcolor: --color-primary-variant
+        • light:
+            --color-primary: '#054e6f'
+            --color-primary-variant: '#36add1'
+            --color-secondary: '#ffc000'
+            --color-error: '#ff207a'
+            --color-success: '#67c50a'
+            --color-titlecolor: '#000000'
+            --color-textcolor: '#3c424f'
+    </body>
+</html>

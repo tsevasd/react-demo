@@ -1,0 +1,26 @@
+{
+    "translation": {
+        "header": {
+            "menu": {
+                "home": "Αρχική",
+                "top10": "Top 10",
+                "messages": "Μηνύματα",
+                "favorites": "Αγαπημένα",
+                "genres": "Είδη",
+                "settings": "Ρυθμίσεις",
+                "logout": "Έξοδος",
+                "changeThemeLight": "Φωτεινό Θέμα",
+                "changeThemeDark": "Σκοτεινό Θέμα"
+            },
+            "user": {
+            },
+            "searchInput": "Αναζήτηση..."
+        },
+        "sidebar": {
+        },
+        "home": {
+            "title": "Καλώς ήλθατε στη demo web application μου",
+            "text": "Αυτή η εφαρμογή React είναι μία αναπαράσταση πως μια συλλογή δεδομένων σε μορφή JSON, εξομοιώνοντας ΄΄ενα αποτέλεσμα αναζήτησης σε βάση δεδομένων, μπορεί να παρουσιάσει πληροφορίες, να επεξεργαστεί arrays και να δείξει επιλεγμένες πληροφορίες ή να επιλέξει άλλα δεδομένα εντός του array. Μέθοδοι που έχουν χρησιμοποιηθεί είναι Components, Context, Reducers. React external libraries που έχουν χρησιμοποιηθεί είναι React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) και TailwindCSS."
+        }
+    }
+}

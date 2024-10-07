@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..700;1,14..32,300..700&display=swap');
+
+@layer base {
+
+  :root {
+    --color-primary: #054e6f;
+    --color-primary-variant: #14f4f4;
+    --color-primary-variant-light: #bcf0fd;
+    --color-secondary: #ffd900;
+    --color-darkcolor: #3c424f;
+    --color-error: #ff207a;
+    --color-success: #67c50a;
+    --color-titlecolor: #ffffff;
+    --color-bodycolor: #000000;
+    --color-textcolor: #c4c4c5;
+    --color-area: 20, 244, 244;
+  }
+  .light {
+    --color-primary-variant: #36add1;
+    --color-secondary: #ffc000;
+    --color-bodycolor: #ffffff;
+    --color-titlecolor: #000000;
+    --color-textcolor: var(--color-darkcolor);
+    --color-area: 60, 66, 79;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--color-bodycolor)
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background-color: var(--color-primary)
+  }
+
+  :hover::-webkit-scrollbar-track {
+    background-color: var(--color-bodycolor)
+  }
+
+  :hover::-webkit-scrollbar-thumb {
+    /*background-color: var(--color-darkcolor)*/
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    border-width: 0;
+    background-color: var(--color-primary)
+  }
+
+  a { cursor:pointer }
+
+}
