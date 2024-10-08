@@ -1,5 +1,6 @@
 import React, { useEffect, useContext, useReducer } from "react";
 import { Link } from "react-router-dom";
+import { nameToURL } from "../utilities/showsUtilities";
 import { yearsTool } from "../utilities/yearsUtilities";
 import { IconStar, IconHeart, IconHeartOn } from "../icons/all";
 import UserContext from "../context/UserContext";
@@ -42,8 +43,12 @@ export default function ShowCard({show}){
                 </div>
             </div>
             <div className="overflow-x-auto whitespace-nowrap text-xs">
-                {show.genres.map((g, i) => (
-                    <span key={i} className="inline-block bg-area/10 px-2 py-1 rounded-full mr-1 last:mr-0">{g}</span>
+                {show.genres.map((genre, i) => (
+                    <Link
+                        className="inline-block bg-area/10 hover:bg-area/20 transition-colors px-2 py-1 rounded-full mr-1 last:mr-0"
+                        to={`/genre/${nameToURL(genre)}`}
+                        key={i}
+                    >{genre}</Link>
                 ))}
             </div>
         </div>

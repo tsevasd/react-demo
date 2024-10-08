@@ -11,6 +11,9 @@ import Home from './pages/Home.js';
 import FavoriteShows from './pages/FavoriteShows.js';
 import Genres from './pages/Genres.js';
 import Show from './pages/Show.js';
+import Actor from './pages/Actor.js';
+import Genre from './pages/Genre.js';
+import Settings from './pages/Settings.js';
 import { showsTool } from './utilities/showsUtilities.js';
 
 function App() {
@@ -49,14 +52,17 @@ function App() {
       <ThemeProvider>
         <Router>
           <Sidebar t={t}></Sidebar>
-          <main className="h-screen flex grow flex-col">
+          <main className="min-h-screen flex grow flex-col">
             <Header t={t} handleChangeLanguage={handleChangeLanguage} showsShort={showsShort}></Header>
             <section>
               <Routes>
-                <Route path="/" element={<Home t={t} shows={shows} />}></Route>
+                <Route path="/:page?" element={<Home t={t} shows={shows} />}></Route>
                 <Route path="/favorites" element={<FavoriteShows t={t} shows={shows} />}></Route>
                 <Route path="/genres" element={<Genres t={t} shows={shows} />}></Route>
+                <Route path="/settings" element={<Settings t={t} shows={shows} />}></Route>
                 <Route path="/show/:showId" action={({ params }) => {}} element={<Show t={t} shows={shows} />}></Route>
+                <Route path="/actor/:actorName" action={({ params }) => {}} element={<Actor t={t} shows={shows} />}></Route>
+                <Route path="/genre/:genre" action={({ params }) => {}} element={<Genre t={t} shows={shows} />}></Route>
               </Routes>
             </section>
             <Footer></Footer>

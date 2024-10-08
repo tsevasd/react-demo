@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import { IconSearch, IconClose } from '../icons/all';
 import { yearsTool } from "../utilities/yearsUtilities";
 
@@ -69,10 +70,10 @@ export default function SearchWidget({t, showsShort}){
                                     searchTerm.length > 1 &&
                                     matchesSearchTerm(showsShort, searchTerm).map(show => (
                                         <li key={show.id} className="mb-2">
-                                            <a>
+                                            <Link to={`/show/${show.id}`} onClick={closeSearch}>
                                                 <h4 className="font-bold"  dangerouslySetInnerHTML={{ __html: show.title.replace(new RegExp(searchTerm, 'gi'), '<span className="text-secondary">$&</span>') }} />
                                                 <div className="text-sm">{yearsTool(show.years, "range")}</div>
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))
                                 }

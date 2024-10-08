@@ -12,4 +12,13 @@ export const showsTool = (shows, action) => {
     }
 }
 
+export const nameToURL = (str) => {
+    return str.toLowerCase()
+    .replace(/ /g, '-')
+    .replace(/ä/g, 'a')
+    .replace(/á/g, 'a')
+    .replace(/é/g, 'e')
+    .replace(/ö/g, 'o')
+
+}
 export const initials = (str) => str.match(/\b\w/g).join('').toUpperCase();

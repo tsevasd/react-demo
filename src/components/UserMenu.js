@@ -43,27 +43,27 @@ export default function UserMenu({user, t}){
                         </div>
                     </div>
                     <div className="relative mt-6 flex-1 px-4 sm:px-6 overflow-y-auto">
-                        <ul className="p-2">
-                            <li>
-                                <Link to="/" className="w-full h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                        <ul>
+                            <li className="mb-2">
+                                <Link to="/favorites" className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                                     <IconHeart iconClassName="w-8 stroke-secondary inline"></IconHeart>
                                     <span className="ml-3 align-middle">{ t('header.menu.favorites') }</span>
                                 </Link>
                             </li>
-                            <li>
-                                <Link to="/" className="w-full h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                            <li className="mb-2">
+                                <Link to="/genres" className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                                     <IconFilm iconClassName="w-8 stroke-secondary inline"></IconFilm>
                                     <span className="ml-3 align-middle">{ t('header.menu.genres') }</span>
                                 </Link>
                             </li>
-                            <li>
-                                <Link to="/" className="w-full h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                            <li className="mb-2">
+                                <Link to="/settings" className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                                     <IconSettings iconClassName="w-8 stroke-secondary inline"></IconSettings>
                                     <span className="ml-3 align-middle">{ t('header.menu.settings') }</span>
                                 </Link>
                             </li>
-                            <li>
-                                <button className="w-12 h-12 mt-auto ml-2 flex items-center justify-start rounded-full hover:bg-area/10 transition-colors">
+                            <li className="text-right">
+                                <button className="h-12 inline-flex items-center pr-3 pl-6 rounded-full hover:bg-area/10 transition-colors">
                                     <span className="mr-3 align-middle">{ t('header.menu.logout') }</span>
                                     <IconLogout iconClassName="w-8 h-8 stroke-error"></IconLogout>
                                 </button>

@@ -13,6 +13,7 @@ export default function FavoriteShows({t, shows}){
             <h1 className="text-xl mb-4">{t('shows.favorites')}</h1>
             <div className="grid grid-cols-6 gap-8">
                 {user.favorites.map((id) => {
+                    // find show by id
                     const show = shows.find(m => m.id === id);
                     return(<ShowCard show={show}></ShowCard>);
                 })}

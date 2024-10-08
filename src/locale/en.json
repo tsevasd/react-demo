@@ -23,12 +23,20 @@
             "text": "In this React application I demonstrate how a static collection of data in JSON, simulating a database query, can show information, process the arrays and show selected information or select other data inside this array. Methods used are Components, Context, Reducers. React external libraries used are React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) and TailwindCSS."
         },
         "shows": {
-            "favorites": "Favorite Shows"
+            "favorites": "Favorite Shows",
+            "cast": "Cast:"
         },
         "genres": {
             "favorites": "Favorite Genres",
             "add": "+ Add",
-            "all": "All Genres"
-        }
+            "addToFavorites": "Add genre to favorites",
+            "all": "All Genres",
+            "shows": "Shows"
+        },
+        "actor": {
+            "playedWith": "Shows {0} played:"
+        },
+        "previous": "Previous",
+        "next": "Next"
     }
 }
