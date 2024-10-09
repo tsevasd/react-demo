@@ -20,7 +20,24 @@
         },
         "home": {
             "title": "Καλώς ήλθατε στη demo web application μου",
-            "text": "Αυτή η εφαρμογή React είναι μία αναπαράσταση πως μια συλλογή δεδομένων σε μορφή JSON, εξομοιώνοντας ΄΄ενα αποτέλεσμα αναζήτησης σε βάση δεδομένων, μπορεί να παρουσιάσει πληροφορίες, να επεξεργαστεί arrays και να δείξει επιλεγμένες πληροφορίες ή να επιλέξει άλλα δεδομένα εντός του array. Μέθοδοι που έχουν χρησιμοποιηθεί είναι Components, Context, Reducers. React external libraries που έχουν χρησιμοποιηθεί είναι React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) και TailwindCSS."
-        }
+            "text": "Αυτή η εφαρμογή React είναι μία αναπαράσταση πως μια συλλογή δεδομένων σε μορφή JSON, εξομοιώνοντας ΄΄ενα αποτέλεσμα αναζήτησης σε βάση δεδομένων, μπορεί να παρουσιάσει πληροφορίες, να επεξεργαστεί arrays και να δείξει επιλεγμένες πληροφορίες ή να επιλέξει άλλα δεδομένα εντός του array. Μέθοδοι που έχουν χρησιμοποιηθεί είναι Components, Context, Reducers. React external libraries που έχουν χρησιμοποιηθεί είναι React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) και TailwindCSS με custom theme."
+        },
+        "shows": {
+            "favorites": "Αγαπημένες Σειρές",
+            "cast": "Καστ:"
+        },
+        "genres": {
+            "favorites": "Απαπημένα Είδη",
+            "add": "+ Προσθήκη",
+            "addToFavorites": "Προσθήκη είδες στα αγαπημένα",
+            "all": "Όλα τα είδη",
+            "shows": "Σειρές"
+        },
+        "actor": {
+            "playedWith": "Σειρές που παίζει ο/η {0}:"
+        },
+        "previous": "Προηγούμενο",
+        "next": "Επόμενο",
+        "top10": "Top 10 Σειρές"
     }
 }

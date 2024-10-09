@@ -1,13 +1,14 @@
-import React, { useContext, useReducer} from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import UserContext from "../context/UserContext";
-import userReducer from "../reducers/userReducer";
+//import userReducer from "../reducers/userReducer";
 import { nameToURL } from "../utilities/showsUtilities";
 
 export default function GenresWidget({t}){
     
-    const { userInitialState, userInitialState2, setUser } = useContext(UserContext);
-    const [user, dispatch] = useReducer(userReducer, userInitialState2);
+    //const { userInitialState, userInitialState2, setUser } = useContext(UserContext);
+    //const [user, dispatchUser] = useReducer(userReducer, userInitialState2);
+    const {user, dispatchUser} = useContext(UserContext);
 
     return(
         <div className="px-4 pb-4">

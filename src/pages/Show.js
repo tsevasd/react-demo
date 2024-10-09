@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { IconStar } from '../icons/all';
-import { nameToURL } from '../utilities/showsUtilities';
+import { nameToURL, initials } from "../utilities/showsUtilities";
 
 export default function Show({t, shows}) {
 
@@ -9,13 +9,9 @@ export default function Show({t, shows}) {
     const showParams = useParams();
     // find the show from the array that matches the id
     const show = shows.find((s) => s.id.toString() === showParams.showId);
+    //console.log(show);
 
-    function initials(name){
-        // take the first letter of words joined by non word characters and capitalize them
-        return name.match(/\b\w/g).join('').toUpperCase();
-    }
-
-  return (
+    return (
         <div className="px-6 pb-4 mb-4 max-w-4xl border-r border-darkcolor">
             <div className="flex flex-row w-full mb-8">
                 <div>
@@ -25,13 +21,12 @@ export default function Show({t, shows}) {
                     <div className="flex w-full items-center justify-between">
                         <h1 className="text-2xl text-titlecolor mb-2">{show.title}</h1>
                         <div className="flex items-center">
-                            {show.rating}
+                            {show.rating.toFixed(1)}
                             <IconStar iconClassName="w-6 h-6 ml-2 stroke-secondary"></IconStar>
                         </div>
                     </div>
-                    <div className="mb-4">[
-                        {show.years.map((y, i) => (<span className="first:ml-2 mr-2">{y}{(i < show.years.length-1) && (',')}</span>))}
-                        ]
+                    <div className="mb-4">
+                        [ {show.years.join(', ')} ]
                     </div>
                     <div className="text-sm mb-4">{show.description}</div>
                     <div className="mt-auto text-sm">{show.genres.map((genre) => (
@@ -60,5 +55,5 @@ export default function Show({t, shows}) {
                 ))}
             </div>
         </div>
-  );
+    );
 }

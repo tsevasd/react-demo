@@ -10,7 +10,6 @@ export default function Actor({t, shows}){
 
     // find all shows that include the actor
     const showsWithActor = shows.filter(s => s.cast.find(a => nameToURL(a.name) === urlParams.actorName));
-    console.log(showsWithActor[0]);
 
     var actorName = "";
     showsWithActor[0].cast.map(a => {
@@ -18,6 +17,7 @@ export default function Actor({t, shows}){
             actorName = a.name;
             return true;
         }
+        return false;
     });
 
 

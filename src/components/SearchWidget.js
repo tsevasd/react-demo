@@ -64,13 +64,16 @@ export default function SearchWidget({t, showsShort}){
                                 <IconClose iconClassName="w-7 h-7 stroke-primary"></IconClose>
                             </button>
                         </div>
-                        <div className="px-8 pb-4 flex-grow overflow-y-auto">
+                        <div className="px-4 pb-4 flex-grow overflow-y-auto">
                             <ul>
                                 {
                                     searchTerm.length > 1 &&
                                     matchesSearchTerm(showsShort, searchTerm).map(show => (
-                                        <li key={show.id} className="mb-2">
-                                            <Link to={`/show/${show.id}`} onClick={closeSearch}>
+                                        <li key={show.id} className="mb-1">
+                                            <Link
+                                                className="block px-4 py-2 rounded-lg transition-colors hover:bg-area/10"
+                                                to={`/show/${show.id}`}
+                                                onClick={closeSearch}>
                                                 <h4 className="font-bold"  dangerouslySetInnerHTML={{ __html: show.title.replace(new RegExp(searchTerm, 'gi'), '<span className="text-secondary">$&</span>') }} />
                                                 <div className="text-sm">{yearsTool(show.years, "range")}</div>
                                             </Link>

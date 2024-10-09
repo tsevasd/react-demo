@@ -2,7 +2,7 @@ export default function userReducer(user, action){
 
     switch(action.type){
         case "TOGGLE_FAVORITE_SHOW":
-            console.log('user.favorites.includes(action.showId)', user.favorites, action.showId, user.favorites.includes(action.showId));
+            //console.log('user.favorites.includes(action.showId)', user.favorites, action.showId, user.favorites.includes(action.showId));
             if (user.favorites.includes(action.showId)) {
                 return {...user, favorites: user.favorites.filter(showId => showId !== action.showId)};
             } else {

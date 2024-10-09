@@ -28,8 +28,8 @@ export const ThemeProvider = ({children}) => {
 
     return (
         <ThemeContext.Provider value={{theme, toggleSidebar, toggleTheme}}>
-            <div className={`h-screen w-full ${theme.theme}`}>
-                <div className="h-screen w-full bg-bodycolor transition text-textcolor flex flex-row">
+            <div className={`min-h-screen w-full ${theme.theme}`}>
+                <div className="min-h-screen w-full bg-bodycolor transition text-textcolor flex flex-row">
                     {children}
                 </div>
             </div>

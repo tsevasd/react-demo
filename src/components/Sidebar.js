@@ -36,7 +36,7 @@ export default function Sidebar({t}){
                         </Link>
                     </li>
                     <li>
-                        <Link to="/" className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                        <Link to="/settings" className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                             <IconSettings iconClassName="w-8 stroke-secondary inline"></IconSettings>
                             <span className="ml-3 align-middle">{ t('header.menu.settings') }</span>
                         </Link>

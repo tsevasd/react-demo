@@ -11,8 +11,6 @@ export default function Pagination({t, postsPerPage, length, currentPage, link})
         paginationNumbers.push(i);
     }
 
-    console.log(paginationNumbers.length)
-
     return(
         <div className="text-center py-3">
             {currentPageNumber !== 1 && 

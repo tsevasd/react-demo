@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import './locale/i18n.js';
 import { ThemeProvider } from './context/ThemeProvider';
@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home.js';
+import Top10 from './pages/Top10.js';
 import FavoriteShows from './pages/FavoriteShows.js';
 import Genres from './pages/Genres.js';
 import Show from './pages/Show.js';
@@ -57,6 +58,7 @@ function App() {
             <section>
               <Routes>
                 <Route path="/:page?" element={<Home t={t} shows={shows} />}></Route>
+                <Route path="/top-10" element={<Top10 t={t} shows={shows} />}></Route>
                 <Route path="/favorites" element={<FavoriteShows t={t} shows={shows} />}></Route>
                 <Route path="/genres" element={<Genres t={t} shows={shows} />}></Route>
                 <Route path="/settings" element={<Settings t={t} shows={shows} />}></Route>

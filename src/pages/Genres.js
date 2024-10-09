@@ -1,16 +1,16 @@
-import React, { useContext, useReducer } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import UserContext from "../context/UserContext";
-import userReducer from "../reducers/userReducer";
 import { showsTool, nameToURL } from "../utilities/showsUtilities";
 
 export default function Genres({t, shows}){
 
-    const { userInitialState, userInitialState2, setUser } = useContext(UserContext);
-    const [user, dispatch] = useReducer(userReducer, userInitialState2);
+    //const { userInitialState, userInitialState2, setUser } = useContext(UserContext);
+    //const [user, dispatch] = useReducer(userReducer, userInitialState2);
+    const { user, dispatchUser } = useContext(UserContext);
 
     function toggleGenre(genre){
-        dispatch({type: "TOGGLE_FAVORITE_GENRE", genre: genre});
+        dispatchUser({type: "TOGGLE_FAVORITE_GENRE", genre: genre});
     }
 
     const allGenres = showsTool(shows, "ALL_GENRES");
@@ -38,7 +38,7 @@ export default function Genres({t, shows}){
                 <div className="border-l border-darkcolor px-6">
                     <h3 className="font-bold mb-2">{t('genres.favorites')}</h3>
                     <div className="mb-8">
-                        {user.favoriteGenres.map((genre) => (
+                        {user.favoriteGenres.length > 0 ? user.favoriteGenres.map((genre) => (
                             <a className="inline-flex items-center pl-5 pr-4 py-2 bg-area/10 hover:bg-area/20 transition-colors mr-2 mb-2 rounded-full"
                                 onClick={() => {toggleGenre(genre)}}
                                 key={genre}
@@ -46,7 +46,7 @@ export default function Genres({t, shows}){
                                 {genre}
                                 <span className="bg-error text-white inline-flex items-center justify-center rounded-full w-5 h-5 ml-3">-</span>
                             </a>
-                        ))}
+                        )) : t('noFavorites')}
                     </div>
                     <h3 className="font-bold mb-2">{t('genres.addToFavorites')}</h3>
                     <div className="mb-8">
