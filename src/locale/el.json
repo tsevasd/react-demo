@@ -19,12 +19,12 @@
         "sidebar": {
         },
         "home": {
-            "title": "Καλώς ήλθατε στη demo web application μου",
-            "text": "Αυτή η εφαρμογή React είναι μία αναπαράσταση πως μια συλλογή δεδομένων σε μορφή JSON, εξομοιώνοντας ΄΄ενα αποτέλεσμα αναζήτησης σε βάση δεδομένων, μπορεί να παρουσιάσει πληροφορίες, να επεξεργαστεί arrays και να δείξει επιλεγμένες πληροφορίες ή να επιλέξει άλλα δεδομένα εντός του array. Μέθοδοι που έχουν χρησιμοποιηθεί είναι Components, Context, Reducers. React external libraries που έχουν χρησιμοποιηθεί είναι React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) και TailwindCSS με custom theme."
+            "title": "Καλώς ήλθατε στη demo React web εφαρμογή μου",
+            "text": "Αυτή η εφαρμογή React είναι μία αναπαράσταση πως μια συλλογή δεδομένων σε μορφή JSON, εξομοιώνοντας ένα αποτέλεσμα αναζήτησης σε βάση δεδομένων, μπορεί να παρουσιάσει πληροφορίες, να επεξεργαστεί το array και να δείξει επιλεγμένες πληροφορίες ή να επιλέξει άλλα δεδομένα εντός του array. Μέθοδοι που έχουν χρησιμοποιηθεί είναι Components, Context, Reducers. React external libraries που έχουν χρησιμοποιηθεί είναι React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) και TailwindCSS με custom theme."
         },
         "shows": {
             "favorites": "Αγαπημένες Σειρές",
-            "cast": "Καστ:"
+            "cast": "Παίζουν:"
         },
         "genres": {
             "favorites": "Απαπημένα Είδη",
@@ -38,6 +38,16 @@
         },
         "previous": "Προηγούμενο",
         "next": "Επόμενο",
-        "top10": "Top 10 Σειρές"
+        "top10": "Top 10 Σειρές",
+        "settings": {
+            "theme": "Θέμα",
+            "user": "Χρήστης",
+            "themeName": "Όνομα Θέματος:",
+            "username": "Όνομα Χρήστη:",
+            "languages": "Διαθέσιμες Γλώσσες:",
+            "currentTheme": "Τρέχον Θέμα:",
+            "changeTheme": "Αλλαγή Θέματος:",
+            "sidebarStatus": "Κατάσταση Sidebar:"
+        }
     }
 }

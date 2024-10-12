@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { IconSearch, IconClose } from '../icons/all';
-import { yearsTool } from "../utilities/yearsUtilities";
+import { yearsTool } from "../utilities/timeUtilities";
 
 export default function SearchWidget({t, showsShort}){
 
@@ -74,7 +74,7 @@ export default function SearchWidget({t, showsShort}){
                                                 className="block px-4 py-2 rounded-lg transition-colors hover:bg-area/10"
                                                 to={`/show/${show.id}`}
                                                 onClick={closeSearch}>
-                                                <h4 className="font-bold"  dangerouslySetInnerHTML={{ __html: show.title.replace(new RegExp(searchTerm, 'gi'), '<span className="text-secondary">$&</span>') }} />
+                                                <h4 className="font-bold"  dangerouslySetInnerHTML={{ __html: show.title.replace(new RegExp(searchTerm, 'gi'), '<span class="text-secondary">$&</span>') }} />
                                                 <div className="text-sm">{yearsTool(show.years, "range")}</div>
                                             </Link>
                                         </li>

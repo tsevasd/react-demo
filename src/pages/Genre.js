@@ -4,9 +4,9 @@ import ShowCard from "../components/ShowCard";
 
 export default function Genre({t, shows}){
 
-    const urlParams = useParams();
-    var genre = urlParams.genre.replace(/-/g, ' ');
-    if (urlParams.genre === "sci-fi") { genre="sci-fi"; }
+    const {genreParam} = useParams();
+    var genre = genreParam.replace(/-/g, ' ');
+    if (genreParam === "sci-fi") { genre = "sci-fi"; }
 
     //find all shows containing the genre parameter
     const showsFound = shows.filter(s => s.genres.includes(genre));

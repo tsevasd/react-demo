@@ -7,6 +7,7 @@ export const ThemeProvider = ({children}) => {
         name: "MyTV Shows",
         theme: "dark",
         lang: "en",
+        languages: ["en", "el"],
         sidebar: "closed",
         share: {
             facebook: true,
@@ -26,8 +27,12 @@ export const ThemeProvider = ({children}) => {
         setTheme(prevTheme => (prevTheme.sidebar === 'closed' ? { ...prevTheme, 'sidebar': 'open' } : { ...prevTheme, 'sidebar': 'closed' } ))
     }
 
+    const updateName = (name) => {
+        setTheme(prevTheme => { return {  ...prevTheme,  'name': name }} )
+    }
+
     return (
-        <ThemeContext.Provider value={{theme, toggleSidebar, toggleTheme}}>
+        <ThemeContext.Provider value={{theme, toggleSidebar, toggleTheme, updateName}}>
             <div className={`min-h-screen w-full ${theme.theme}`}>
                 <div className="min-h-screen w-full bg-bodycolor transition text-textcolor flex flex-row">
                     {children}

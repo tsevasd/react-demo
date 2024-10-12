@@ -1,11 +1,9 @@
 import React, { useEffect, useContext, useReducer } from "react";
 import { Link } from "react-router-dom";
 import { nameToURL } from "../utilities/showsUtilities";
-import { yearsTool } from "../utilities/yearsUtilities";
+import { yearsTool } from "../utilities/timeUtilities";
 import { IconStar, IconHeart, IconHeartOn } from "../icons/all";
 import UserContext from "../context/UserContext";
-import userReducer from "../reducers/userReducer";
-
 
 export default function ShowCard({show}){
 

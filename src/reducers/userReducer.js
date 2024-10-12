@@ -14,10 +14,16 @@ export default function userReducer(user, action){
             } else {
                 return {...user, favoriteGenres: [...user.favoriteGenres, action.genre]};
             }
+        case "UPDATE_VALUE":
+            let a = {};
+            a[action.key] = action.value;
+            return {...user, ...a};
         case "READ_MESSAGE":
-            var messages = user.notifications.messages.map(m => m.date === action.date && (m.read = true));
-            var alert = messages.find(m => m.read === false).length > 0;
-            return {...user, notifications: { alert: alert, messages: messages } };
+            let messages = user.notifications.messages.map(m => {
+                return {...m, read: m.date === action.date ? true : m.read };
+            });
+            let alert = messages.find(m => m.read === false) != null;
+            return {...user, notifications: { alert: alert, messages: [...messages] } };
         default:
             return user;
     }

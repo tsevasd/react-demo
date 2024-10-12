@@ -14,7 +14,9 @@ import Genres from './pages/Genres.js';
 import Show from './pages/Show.js';
 import Actor from './pages/Actor.js';
 import Genre from './pages/Genre.js';
+import Notifications from './pages/Notifications.js';
 import Settings from './pages/Settings.js';
+import NotFound from './pages/NotFound.js';
 import { showsTool } from './utilities/showsUtilities.js';
 
 function App() {
@@ -61,10 +63,12 @@ function App() {
                 <Route path="/top-10" element={<Top10 t={t} shows={shows} />}></Route>
                 <Route path="/favorites" element={<FavoriteShows t={t} shows={shows} />}></Route>
                 <Route path="/genres" element={<Genres t={t} shows={shows} />}></Route>
-                <Route path="/settings" element={<Settings t={t} shows={shows} />}></Route>
+                <Route path="/notifications/:message?" element={<Notifications t={t} />}></Route>
+                <Route path="/settings" element={<Settings t={t} handleChangeLanguage={handleChangeLanguage} shows={shows} />}></Route>
                 <Route path="/show/:showId" action={({ params }) => {}} element={<Show t={t} shows={shows} />}></Route>
                 <Route path="/actor/:actorName" action={({ params }) => {}} element={<Actor t={t} shows={shows} />}></Route>
                 <Route path="/genre/:genre" action={({ params }) => {}} element={<Genre t={t} shows={shows} />}></Route>
+                <Route path="*" element={<NotFound></NotFound>}></Route>
               </Routes>
             </section>
             <Footer></Footer>

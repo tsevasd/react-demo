@@ -6,9 +6,9 @@ import { nameToURL, initials } from "../utilities/showsUtilities";
 export default function Show({t, shows}) {
 
     // get the show id through the URL
-    const showParams = useParams();
+    const {showId} = useParams();
     // find the show from the array that matches the id
-    const show = shows.find((s) => s.id.toString() === showParams.showId);
+    const show = shows.find((s) => s.id.toString() === showId);
     //console.log(show);
 
     return (

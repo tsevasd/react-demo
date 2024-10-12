@@ -4,7 +4,7 @@ import { IconArrowRight } from "../icons/all";
 
 export default function Pagination({t, postsPerPage, length, currentPage, link}){
 
-    const currentPageNumber = Number(currentPage);
+    const currentPageNumber = parseInt(currentPage);
 
     const paginationNumbers = [];
     for (let i = 1; i <= Math.ceil(length / postsPerPage); i++) {

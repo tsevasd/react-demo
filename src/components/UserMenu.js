@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/react'
-import { IconUser, IconClose, IconHeart, IconFilm, IconSettings, IconLogout } from '../icons/all';
+import { IconUser, IconClose, IconHeart, IconFilm, IconEmail, IconSettings, IconLogout } from '../icons/all';
 
 export default function UserMenu({user, t}){
 
@@ -20,7 +20,7 @@ export default function UserMenu({user, t}){
         <div className="fixed inset-0" />
   
         <div className="fixed inset-0 overflow-hidden">
-          <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute inset-0 overflow-hidden bg-black/50">
             <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
               <DialogPanel
                 transition
@@ -45,19 +45,25 @@ export default function UserMenu({user, t}){
                     <div className="relative mt-6 flex-1 px-4 sm:px-6 overflow-y-auto">
                         <ul>
                             <li className="mb-2">
-                                <Link to="/favorites" className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                                <Link to="/favorites" onClick={() => setOpen(false)} className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                                     <IconHeart iconClassName="w-8 stroke-secondary inline"></IconHeart>
                                     <span className="ml-3 align-middle">{ t('header.menu.favorites') }</span>
                                 </Link>
                             </li>
                             <li className="mb-2">
-                                <Link to="/genres" className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                                <Link to="/genres" onClick={() => setOpen(false)} className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                                     <IconFilm iconClassName="w-8 stroke-secondary inline"></IconFilm>
                                     <span className="ml-3 align-middle">{ t('header.menu.genres') }</span>
                                 </Link>
                             </li>
                             <li className="mb-2">
-                                <Link to="/settings" className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                                <Link to="/notifications" onClick={() => setOpen(false)} className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
+                                    <IconEmail iconClassName="w-8 stroke-secondary inline"></IconEmail>
+                                    <span className="ml-3 align-middle">{ t('header.menu.notifications') }</span>
+                                </Link>
+                            </li>
+                            <li className="mb-2">
+                                <Link to="/settings" onClick={() => setOpen(false)} className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                                     <IconSettings iconClassName="w-8 stroke-secondary inline"></IconSettings>
                                     <span className="ml-3 align-middle">{ t('header.menu.settings') }</span>
                                 </Link>

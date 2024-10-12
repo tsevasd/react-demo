@@ -7,6 +7,7 @@
                 "messages": "Messages",
                 "favorites": "Favorites",
                 "genres": "Genres",
+                "notifications": "Notifications",
                 "settings": "Settings",
                 "logout": "Logout",
                 "changeThemeLight": "Light Theme",
@@ -19,8 +20,8 @@
         "sidebar": {
         },
         "home": {
-            "title": "Welcome to my demo web application",
-            "text": "In this React application I demonstrate how a static collection of data in JSON, simulating a database query, can show information, process the arrays and show selected information or select other data inside this array. Methods used are Components, Context, Reducers. React external libraries used are React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) and TailwindCSS with custom theme."
+            "title": "Welcome to my demo React web application",
+            "text": "In this React application I demonstrate how a static collection of data in JSON, simulating a database query, can show information, process the array and show selected information or select other data inside this array. Methods used are Components, Context, Reducers. React external libraries used are React Router, i18next translation tool, HeadlessUI, custom Hooks (Utilities) and TailwindCSS with custom theme."
         },
         "shows": {
             "favorites": "Favorite Shows",
@@ -36,12 +37,26 @@
         "actor": {
             "playedWith": "Shows {0} played:"
         },
+        "sort": {
+            "label": "Sort by:",
+            "default": "Author's view",
+            "byName": "By name",
+            "byYear": "By year",
+            "byRating": "By rating"
+        },
         "previous": "Previous",
         "next": "Next",
         "noFavorites": "No favorites...",
         "top10": "Top 10 Shows",
         "settings": {
-            "changeTheme": "Change Theme:"
+            "theme": "Theme",
+            "user": "User",
+            "themeName": "Theme name:",
+            "username": "Username:",
+            "languages": "Available Languages:",
+            "currentTheme": "Current Theme:",
+            "changeTheme": "Change Theme:",
+            "sidebarStatus": "Sidebar Status:"
         }
     }
 }
