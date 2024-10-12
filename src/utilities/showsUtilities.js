@@ -24,4 +24,4 @@ export const nameToURL = (str) => {
 }
 
 // take the first letter of words joined by non word characters and capitalize them
-export const initials = (str) => str.match(/\b\w/g).join('').toUpperCase();
+export const initials = (str) => str !== "" ? str.match(/\b\w/g).join('').toUpperCase() : "";

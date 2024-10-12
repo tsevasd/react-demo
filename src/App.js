@@ -66,8 +66,8 @@ function App() {
                 <Route path="/notifications/:message?" element={<Notifications t={t} />}></Route>
                 <Route path="/settings" element={<Settings t={t} handleChangeLanguage={handleChangeLanguage} shows={shows} />}></Route>
                 <Route path="/show/:showId" action={({ params }) => {}} element={<Show t={t} shows={shows} />}></Route>
-                <Route path="/actor/:actorName" action={({ params }) => {}} element={<Actor t={t} shows={shows} />}></Route>
-                <Route path="/genre/:genre" action={({ params }) => {}} element={<Genre t={t} shows={shows} />}></Route>
+                <Route path="/actor/:actorName" element={<Actor t={t} shows={shows} />}></Route>
+                <Route path="/genre/:genre" element={<Genre t={t} shows={shows} />}></Route>
                 <Route path="*" element={<NotFound></NotFound>}></Route>
               </Routes>
             </section>

@@ -5,6 +5,8 @@ import ShowCard from "../components/ShowCard";
 
 export default function Actor({t, shows}){
 
+    console.log(shows);
+
     // get the actor name string from URL
     const {actorName} = useParams();
 
@@ -12,7 +14,7 @@ export default function Actor({t, shows}){
     const showsWithActor = shows.filter(s => s.cast.find(a => nameToURL(a.name) === actorName));
 
     var actorRealName = "";
-    showsWithActor[0].cast.map(a => { if (nameToURL(a.name) === actorName) actorRealName = a.name; });
+    if (showsWithActor.length>0) showsWithActor[0].cast.map(a => { if (nameToURL(a.name) === actorName) { actorRealName = a.name; } return true; });
 
 
     return(

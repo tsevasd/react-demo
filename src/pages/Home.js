@@ -16,25 +16,24 @@ export default function Home({t, shows}) {
     const endPost = startPost + postsPerPage;
 
     const [sort, setSort] = useState(1);
-    //const [sortedShows, setSortedShows] = useState([...shows]);
     function sorting(a, b, sort){
         switch(sort){
             case "1":
                 return;
             case "2":
-                //console.log(b.title, a.title, b.title < a.title);
-                return b.title < a.title;
+                return (a.title < b.title) ? -1 : (a.title > b.title) ? 1 : 0;
             case "3":
-                return b.years[0] < a.years[0];
+                return a.years[0] - b.years[0];
             case "4":
-                return b.rating < a.rating;
+                return b.years[0] - a.years[0];
+            case "5":
+                return a.rating - b.rating;
+            case "6":
+                return b.rating - a.rating;
             default:
                 return;
         }
     }
-    /*function handleSorting(sort){
-        setSortedShows();
-    }*/
     const sortedShows = [...shows].sort((a, b) => sorting(a, b, sort));
     
 
@@ -55,9 +54,11 @@ export default function Home({t, shows}) {
                                 onChange={(e) => {setSort(e.target.value)}}
                                 className="h-10 p-2 rounded-full bg-area/10 hover:bg-area/20 cursor-pointer transition-colors overflow-hidden whitespace-nowrap">
                                 <option value="1" className="bg-bodycolor">{t('sort.default')}</option>
-                                <option value="2" className="bg-bodycolor">{t('sort.byName')}</option>
-                                <option value="3" className="bg-bodycolor">{t('sort.byYear')}</option>
-                                <option value="4" className="bg-bodycolor">{t('sort.byRating')}</option>
+                                <option value="2" className="bg-bodycolor">{t('sort.byName')} &#8595;</option>
+                                <option value="3" className="bg-bodycolor">{t('sort.byYear')} &#8593;</option>
+                                <option value="4" className="bg-bodycolor">{t('sort.byYear')} &#8595;</option>
+                                <option value="5" className="bg-bodycolor">{t('sort.byRating')} &#8593;</option>
+                                <option value="6" className="bg-bodycolor">{t('sort.byRating')} &#8595;</option>
                             </select>
                         </div>
                     </div>

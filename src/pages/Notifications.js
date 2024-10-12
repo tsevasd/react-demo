@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { useParams, Link } from 'react-router-dom';
 import { messageDateTime } from "../utilities/timeUtilities";
 import UserContext from "../context/UserContext";
+import { IconArrowRight } from "../icons/all";
 
 export default function Notifications({t}){
 
@@ -37,13 +38,14 @@ export default function Notifications({t}){
                     {user.notifications.messages.map(msg => (
                         <Link 
                             key={msg.date}
-                            className={`block px-6 py-3 border-b border-darkcolor transition ${!msg.read && 'font-bold text-titlecolor bg-area/10 hover:bg-area/20'} hover:bg-area/20`}
+                            className={`block relative pl-6 pr-12 py-3 border-b border-darkcolor transition ${!msg.read && 'font-bold text-titlecolor bg-area/10 hover:bg-area/20'} hover:bg-area/20`}
                             to={`/notifications/${msg.date}`}>
                             <div className="flex w-full">
                                 <div className={`text-lg font-bold ${!msg.read && 'text-secondary'}`}>{msg.title}</div>
                                 <div className="text-sm text-right ml-auto">{messageDateTime(msg.date)}</div>
                             </div>
                             <div className="whitespace-nowrap overflow-hidden text-ellipsis">{msg.text}</div>
+                            {msg.date === currentMessageDate && (<IconArrowRight iconClassName="absolute right-0 top-4 z-10 w-11 h-11 stroke-secondary" />)}
                         </Link>
                     ))}
                 </div>
