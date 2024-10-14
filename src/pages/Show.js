@@ -12,12 +12,12 @@ export default function Show({t, shows}) {
     //console.log(show);
 
     return (
-        <div className="px-6 pb-4 mb-4 max-w-4xl border-r border-darkcolor">
-            <div className="flex flex-row w-full mb-8">
-                <div>
-                    <img src={show.poster} className="max-w-none" alt={show.title} />
+        <div className="px-6 pb-4 mb-4 max-w-4xl md:border-r border-darkcolor">
+            <div className="md:flex flex-row w-full mb-8">
+                <div className="mb-8 md:mb-0">
+                    <img src={show.poster} className="max-w-none w-full md:w-auto" alt={show.title} />
                 </div>
-                <div className="px-8 flex flex-col">
+                <div className="md:px-8 flex flex-col">
                     <div className="flex w-full items-center justify-between">
                         <h1 className="text-2xl text-titlecolor mb-2">{show.title}</h1>
                         <div className="flex items-center">
@@ -39,7 +39,7 @@ export default function Show({t, shows}) {
                 </div>
             </div>
             <h3 className="font-bold mb-4">{t('shows.cast')}</h3>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {show.cast.map(c => (
                     <Link 
                         className="flex gap-4 items-center p-2 rounded-full transition hover:bg-area/10"

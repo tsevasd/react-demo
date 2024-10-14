@@ -28,7 +28,7 @@ export default function ShowCard({show}){
                     onError={handleError}
                 />
                 <div className="absolute bottom-0 left-0 w-full z-10 px-4 py-3 backdrop-blur-sm bg-black/50">
-                    <h3 className="font-bold text-white">{show.title}</h3>
+                    <h3 className="font-bold text-white leading-tight py-1">{show.title}</h3>
                     <div className="text-sm">{yearsTool(show.years, "range")}</div>
                 </div>
             </Link>

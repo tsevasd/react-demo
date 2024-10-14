@@ -27,15 +27,15 @@ export default function SearchWidget({t, showsShort}){
     }
 
     return(
-        <div className="ml-4">
+        <div className="ml-2 md:ml-4">
             <button
-                className="w-48 h-12 rounded-full bg-area/10 hover:bg-area/20 flex items-center justify-start text-darkcolor px-3"
+                className="w-12 md:w-48 h-12 rounded-full bg-area/10 hover:bg-area/20 transition-colors flex items-center justify-center md:justify-start text-darkcolor md:px-3"
                 onClick={openSearch}
             >
-                <IconSearch iconClassName="w-6 h-6 stroke-darkcolor mr-3"></IconSearch>
-                <span>{t('header.searchInput')}</span>
+                <IconSearch iconClassName="w-6 h-6 stroke-textcolor md:stroke-darkcolor md:mr-3"></IconSearch>
+                <span className="hidden md:inline">{t('header.searchInput')}</span>
             </button>
-            <div className={`fixed z-20 top-0 left-0 w-full ${search ? 'visible h-screen' : 'invisible'}`}>
+            <div className={`fixed z-20 top-0 left-0 w-full ${search ? 'visible h-screen h-full' : 'invisible'}`}>
                 <div className="bg-black/50 absolute inset-0">
                     <div className="max-w-screen-lg mx-auto h-screen bg-bodycolor relative z-20 flex flex-col">
                         <div className="p-4 flex gap-2">

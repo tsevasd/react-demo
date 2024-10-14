@@ -56,7 +56,7 @@ function App() {
         <Router>
           <Sidebar t={t}></Sidebar>
           <main className="min-h-screen flex grow flex-col">
-            <Header t={t} handleChangeLanguage={handleChangeLanguage} showsShort={showsShort}></Header>
+            <Header t={t} handleChangeLanguage={handleChangeLanguage} showsShort={showsShort} ></Header>
             <section>
               <Routes>
                 <Route path="/:page?" element={<Home t={t} shows={shows} />}></Route>

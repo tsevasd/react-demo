@@ -24,7 +24,7 @@ export default function UserMenu({user, t}){
             <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
               <DialogPanel
                 transition
-                className="pointer-events-auto w-screen max-w-md transform transition duration-300 ease-in-out data-[closed]:translate-x-full"
+                className="pointer-events-auto w-screen max-w-80 md:max-w-md transform transition duration-300 ease-in-out data-[closed]:translate-x-full"
               >
                 <div className="flex h-full flex-col overflow-y-scroll bg-bodycolor py-6 shadow-xl border-l border-primary">
                     <div className="px-4 sm:px-6">

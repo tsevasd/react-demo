@@ -38,12 +38,12 @@ export default function Home({t, shows}) {
     
 
     return (
-        <div className="px-8 py-4">
-            <div className="grid grid-cols-4 gap-8">
-                <div className="col-span-3">
-                    <img src={`img/logo_hor_${theme.theme === "dark" ? 'light' : 'dark'}.png`} alt={theme.name}className="block max-w-lg mx-auto" />
-                    <div className="flex w-full items-end gap-6 mb-4">
-                        <div className="pr-16">
+        <div className="px-6 md:px-8 pb-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div className="md:col-span-3">
+                    <img src={`img/logo_hor_${theme.theme === "dark" ? 'light' : 'dark'}.png`} alt={theme.name}className="block max-w-60 md:max-w-lg mx-auto" />
+                    <div className="flex flex-col md:flex-row w-full items-end gap-4 md:gap-6 mb-4">
+                        <div className="md:pr-16">
                             <h1 className="font-bold text-lg mb-2">{t('home.title')}</h1>
                             <div className="text-sm">{t('home.text')}</div>
                         </div>
@@ -62,14 +62,14 @@ export default function Home({t, shows}) {
                             </select>
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 gap-4 mb-4">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
                         {sortedShows.slice(startPost, endPost).map((show) => (
                             <ShowCard key={show.id} show={show}></ShowCard>
                         ))}
                     </div>
                     <Pagination t={t} postsPerPage={postsPerPage} length={shows.length} currentPage={currentPage.toString()} link="/{0}"></Pagination>
                 </div>
-                <div className="border-l border-darkcolor">
+                <div className="md:border-l border-darkcolor">
                     <GenresWidget t={t}></GenresWidget>
                 </div>
             </div>

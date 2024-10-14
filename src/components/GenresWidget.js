@@ -11,7 +11,7 @@ export default function GenresWidget({t}){
     const {user, dispatchUser} = useContext(UserContext);
 
     return(
-        <div className="px-4 pb-4">
+        <div className="md:px-4 pb-4">
             <h3 className="text-xl mb-4">{t('genres.favorites')}</h3>
             {user.favoriteGenres.map((genre) => (
                 <Link

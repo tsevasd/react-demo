@@ -26,7 +26,7 @@ export default function Actor({t, shows}){
                 </div>
             </div>
             <h3 className="font-bold mb-4">{t('actor.playedWith').replace('{0}', actorRealName)}</h3>
-            <div className="grid grid-cols-6 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
                 {showsWithActor.map((show) => (
                     <ShowCard key={show.id} show={show}></ShowCard>
                 ))}

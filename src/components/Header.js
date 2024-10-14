@@ -6,22 +6,28 @@ import ThemeContext from "../context/ThemeContext";
 import UserContext from "../context/UserContext";
 import SearchWidget from "./SearchWidget";
 import UserMenu from "./UserMenu";
-import { IconNotification } from '../icons/all';
+import { IconNotification, IconMenu } from '../icons/all';
 import { messageDateTime } from "../utilities/timeUtilities";
 
 export default function Header({t, handleChangeLanguage, showsShort}){
 
-    const { theme } = useContext(ThemeContext);
+    const { theme, toggleSidebar } = useContext(ThemeContext);
     const { user, dispatchUser } = useContext(UserContext);
 
     return(
-        <header className="w-full flex flex-row items-center px-6 py-4">
-            <ul className="flex flex-row gap-4">
-                <li><Link to="/">{ t('header.menu.home') }</Link></li>
-                <li><Link to="/top-10">{ t('header.menu.top10') }</Link></li>
+        <header className="w-full flex flex-row items-center px-2 md:px-6 py-4">
+            <button className="md:hidden w-12 h-12 flex items-center justify-center rounded-full active:bg-area/10" onClick={toggleSidebar}>
+                <IconMenu iconClassName="w-8 h-8 stroke-textcolor"></IconMenu>
+            </button>
+            <Link to="/" className="md:hidden mr-2 md:mr-4">
+                <img src={`/img/logo_icon_${theme.theme === "dark" ? 'light' : 'dark'}.png`} alt={theme.name} className="h-12 w-12 max-w-none" />
+            </Link>
+            <ul className="flex flex-row gap-4 whitespace-nowrap text-sm sm:text-base">
+                <li className="hidden md:block"><Link to="/" className="hover:text-titlecolor transition-colors">{ t('header.menu.home') }</Link></li>
+                <li><Link to="/top-10" className="py-2 md:p-0 hover:text-titlecolor transition-colors">{ t('header.menu.top10') }</Link></li>
             </ul>
             <SearchWidget t={t} showsShort={showsShort}></SearchWidget>
-            <div className="ml-auto flex gap-2">
+            <div className="ml-auto flex md:gap-2">
                 <Menu>
                     <MenuButton className="w-12 h-12 flex items-center justify-center rounded-full hover:bg-area/10 data-[open]:bg-area/20">{ theme.lang.toUpperCase() }</MenuButton>
                     <MenuItems transition anchor="bottom" className="origin-top bg-bodycolor rounded-lg border border-primary text-center data-[closed]:scale-95 data-[closed]:opacity-0 transition z-10 w-16">
@@ -42,7 +48,7 @@ export default function Header({t, handleChangeLanguage, showsShort}){
                         <IconNotification iconClassName="w-6 h-6 stroke-secondary"></IconNotification>
                         {user.notifications.alert && <div className="w-2 h-2 rounded-full bg-error absolute top-2 right-2"></div>}
                     </MenuButton>
-                    <MenuItems transition anchor="bottom" className="origin-top-right bg-bodycolor rounded-lg border border-primary data-[closed]:scale-95 data-[closed]:opacity-0 transition z-10 w-96">
+                    <MenuItems transition anchor="bottom" className="origin-top-right bg-bodycolor rounded-lg border border-primary data-[closed]:scale-95 data-[closed]:opacity-0 transition z-10 w-64 md:w-96 shadow-lg">
                         {user.notifications.messages.map((message, i) => (
                         <MenuItem key={i}>
                             <Link

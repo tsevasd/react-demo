@@ -33,19 +33,19 @@ export default function Notifications({t}){
     return(
         <div className="px-6 pb-4 pt-2">
             <h1 className="text-2xl text-titlecolor mb-6">{t('header.menu.notifications')}</h1>
-            <div className="grid grid-cols-2 gap-6">
-                <div className="border-r border-darkcolor">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="md:border-r border-darkcolor">
                     {user.notifications.messages.map(msg => (
                         <Link 
                             key={msg.date}
                             className={`block relative pl-6 pr-12 py-3 border-b border-darkcolor transition ${!msg.read && 'font-bold text-titlecolor bg-area/10 hover:bg-area/20'} hover:bg-area/20`}
                             to={`/notifications/${msg.date}`}>
                             <div className="flex w-full">
-                                <div className={`text-lg font-bold ${!msg.read && 'text-secondary'}`}>{msg.title}</div>
+                                <div className={`text-lg font-bold leading-tight my-1 ${!msg.read && 'text-secondary'}`}>{msg.title}</div>
                                 <div className="text-sm text-right ml-auto">{messageDateTime(msg.date)}</div>
                             </div>
                             <div className="whitespace-nowrap overflow-hidden text-ellipsis">{msg.text}</div>
-                            {msg.date === currentMessageDate && (<IconArrowRight iconClassName="absolute right-0 top-4 z-10 w-11 h-11 stroke-secondary" />)}
+                            {msg.date === currentMessageDate && (<IconArrowRight iconClassName="absolute right-0 top-1/2 -mt-6 z-10 w-11 h-11 stroke-secondary" />)}
                         </Link>
                     ))}
                 </div>
