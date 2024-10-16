@@ -27,10 +27,10 @@ export default function Actor({t, shows}){
                         </div>
                     </div>
                     <h3 className="mb-4">{t('actor.playedWith').replace('{0}', actorRealName)}</h3>
-                    <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                         {showsWithActor.map((show) => (
-                            <div>
-                                <h4 className="font-bold py-1 mb-2 text-center bg-area/10">{show.cast.find(a => nameToURL(a.name) === actorName).hero}</h4>
+                            <div className="p-3 rounded-lg bg-area/10">
+                                <h4 className="font-bold mb-2 text-center">{show.cast.find(a => nameToURL(a.name) === actorName).hero}</h4>
                                 <ShowCard key={show.id} show={show}></ShowCard>
                             </div>
                         ))}
