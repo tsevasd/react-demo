@@ -15,7 +15,8 @@
             },
             "user": {
             },
-            "searchInput": "Search..."
+            "searchInput": "Search...",
+            "searchInputDescription": "(Shows, actors, heroes)"
         },
         "sidebar": {
         },
@@ -36,7 +37,8 @@
         },
         "actor": {
             "playedWith": "Shows {0} played:",
-            "search": "Search for an actor/ress or hero...",
+            "search": "Search for an actor/actress or hero...",
+            "searchActor": "Actor:",
             "searchHero": "Hero:"
         },
         "sort": {

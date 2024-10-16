@@ -14,7 +14,8 @@
             },
             "user": {
             },
-            "searchInput": "Αναζήτηση..."
+            "searchInput": "Αναζήτηση...",
+            "searchInputDescription": "(Σειρές, ηθοποιούς, χαρακτήρες)"
         },
         "sidebar": {
         },
@@ -36,7 +37,8 @@
         "actor": {
             "playedWith": "Σειρές που παίζει ο/η {0}:",
             "search": "Αναζήτηση ηθοποιού ή ήρωα...",
-            "searchHero": "Ήρωας:"
+            "searchActor": "Ηθοποιός:",
+            "searchHero": "Χαρακτήρας:"
         },
         "previous": "Προηγούμενο",
         "next": "Επόμενο",

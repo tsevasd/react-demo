@@ -9,7 +9,7 @@ import UserMenu from "./UserMenu";
 import { IconNotification, IconMenu } from '../icons/all';
 import { messageDateTime } from "../utilities/timeUtilities";
 
-export default function Header({t, handleChangeLanguage, showsShort}){
+export default function Header({t, handleChangeLanguage, shows}){
 
     const { theme, toggleSidebar } = useContext(ThemeContext);
     const { user, dispatchUser } = useContext(UserContext);
@@ -26,7 +26,7 @@ export default function Header({t, handleChangeLanguage, showsShort}){
                 <li className="hidden md:block"><Link to="/" className="hover:text-titlecolor transition-colors">{ t('header.menu.home') }</Link></li>
                 <li><Link to="/top-10" className="py-2 md:p-0 hover:text-titlecolor transition-colors">{ t('header.menu.top10') }</Link></li>
             </ul>
-            <SearchWidget t={t} showsShort={showsShort}></SearchWidget>
+            <SearchWidget t={t} shows={shows}></SearchWidget>
             <div className="ml-auto flex md:gap-2">
                 <Menu>
                     <MenuButton className="w-12 h-12 flex items-center justify-center rounded-full hover:bg-area/10 data-[open]:bg-area/20">{ theme.lang.toUpperCase() }</MenuButton>

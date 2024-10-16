@@ -5,8 +5,6 @@ import { IconSearch, IconClose } from "../icons/all";
 
 export default function SearchActorWidget({t, shows}){
 
-    // Add search by hero name
-
     const allCast = showsTool(shows, "ALL_CAST");
     const allHeroes = showsTool(shows, "ALL_HEROES");
     
@@ -49,9 +47,10 @@ export default function SearchActorWidget({t, shows}){
                         matchesSearchTerm(allCast, searchTerm).map((actor, i) => (
                             <li key={i} className="mb-1">
                                 <Link
-                                    className="block px-4 py-2 rounded-lg transition-colors hover:bg-area/10"
+                                    className="flex w-full px-4 py-2 rounded-lg transition-colors hover:bg-area/10"
                                     to={`/actor/${nameToURL(actor)}`}>
-                                    <h4 className="font-bold"  dangerouslySetInnerHTML={{ __html: actor.replace(new RegExp(searchTerm, 'gi'), '<span class="text-secondary">$&</span>') }} />
+                                    <span className="flex justify-end shrink pr-2 opacity-50 basis-14">{t('actor.searchActor')}</span>
+                                    <div className="font-bold"  dangerouslySetInnerHTML={{ __html: actor.replace(new RegExp(searchTerm, 'gi'), '<span class="text-secondary">$&</span>') }} />
                                 </Link>
                             </li>
                         ))
@@ -65,7 +64,7 @@ export default function SearchActorWidget({t, shows}){
                                 <Link
                                     className="flex w-full px-4 py-2 text-sm rounded-lg transition-colors hover:bg-area/10"
                                     to={`/show/${url}`}>
-                                    <span className=" shrink pr-2">{t('actor.searchHero')}</span>
+                                    <span className="flex justify-end shrink pr-2 opacity-50 basis-14">{t('actor.searchHero')}</span>
                                     <div dangerouslySetInnerHTML={{ __html: hero.replace(new RegExp(searchTerm, 'gi'), '<span class="text-secondary">$&</span>') }} />
                                 </Link>
                             </li>

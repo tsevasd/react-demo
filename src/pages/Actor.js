@@ -26,10 +26,13 @@ export default function Actor({t, shows}){
                             <div className="text-titlecolor text-2xl">{actorRealName}</div>
                         </div>
                     </div>
-                    <h3 className="font-bold mb-4">{t('actor.playedWith').replace('{0}', actorRealName)}</h3>
+                    <h3 className="mb-4">{t('actor.playedWith').replace('{0}', actorRealName)}</h3>
                     <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
                         {showsWithActor.map((show) => (
-                            <ShowCard key={show.id} show={show}></ShowCard>
+                            <div>
+                                <h4 className="font-bold py-1 mb-2 text-center bg-area/10">{show.cast.find(a => nameToURL(a.name) === actorName).hero}</h4>
+                                <ShowCard key={show.id} show={show}></ShowCard>
+                            </div>
                         ))}
                     </div>
                 </div>

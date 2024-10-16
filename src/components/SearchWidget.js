@@ -3,8 +3,9 @@ import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { IconSearch, IconClose } from '../icons/all';
 import { yearsTool } from "../utilities/timeUtilities";
+import { showsTool, nameToURL } from "../utilities/showsUtilities";
 
-export default function SearchWidget({t, showsShort}){
+export default function SearchWidget({t, shows}){
 
     const [search, setSearch] = useState(false);
 
@@ -22,8 +23,21 @@ export default function SearchWidget({t, showsShort}){
     const handleSearchChange = (e) => {
         setSearchTerm(e.target.value);
     }
-    const matchesSearchTerm = (shows, searchTerm) => {
+    
+    const showsShort = showsTool(shows, "SHORT_LIST");
+    const matchesSearchTermShow = (shows, searchTerm) => {
         return [...shows.filter((show) => show.title.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0), ...shows.filter((show) => show.title.toLowerCase().indexOf(searchTerm.toLowerCase()) > 0)];
+    }
+
+    
+    const allCast = showsTool(shows, "ALL_CAST");
+    const matchesSearchTermActor = (allCast, searchTerm) => {
+        return [...allCast.filter((actor) => actor.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0), ...allCast.filter(actor => actor.toLowerCase().indexOf(searchTerm.toLowerCase()) > 0)];
+    }
+
+    const allHeroes = showsTool(shows, "ALL_HEROES");
+    const matchesSearchTermHero = (allHeroes, searchTerm) => {
+        return [...allHeroes.filter((hero) => hero.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0), ...allHeroes.filter(hero => hero.toLowerCase().indexOf(searchTerm.toLowerCase()) > 0)];
     }
 
     return(
@@ -43,7 +57,7 @@ export default function SearchWidget({t, showsShort}){
                                 <input
                                     type="text"
                                     className="w-full bg-area/10 px-4 h-12 rounded-full flex-grow focus:outline-none focus:bg-area/20"
-                                    placeholder={t('header.searchInput')}
+                                    placeholder={`${t('header.searchInput')} ${t('header.searchInputDescription')}`}
                                     ref={searchRef}
                                     value={searchTerm} 
                                     onChange={handleSearchChange}
@@ -68,7 +82,7 @@ export default function SearchWidget({t, showsShort}){
                             <ul>
                                 {
                                     searchTerm.length > 1 &&
-                                    matchesSearchTerm(showsShort, searchTerm).map(show => (
+                                    matchesSearchTermShow(showsShort, searchTerm).map(show => (
                                         <li key={show.id} className="mb-1">
                                             <Link
                                                 className="block px-4 py-2 rounded-lg transition-colors hover:bg-area/10"
@@ -79,6 +93,35 @@ export default function SearchWidget({t, showsShort}){
                                             </Link>
                                         </li>
                                     ))
+                                }
+                                {searchTerm.length > 1 && 
+                                    matchesSearchTermActor(allCast, searchTerm).map((actor, i) => (
+                                        <li key={i} className="mb-1">
+                                            <Link
+                                                className="flex w-full px-4 py-2 rounded-lg transition-colors hover:bg-area/10"
+                                                to={`/actor/${nameToURL(actor)}`}
+                                                onClick={closeSearch}>
+                                                <span className="flex justify-end shrink pr-2 opacity-50 basis-14">{t('actor.searchActor')}</span>
+                                                <div className="font-sm font-bold"  dangerouslySetInnerHTML={{ __html: actor.replace(new RegExp(searchTerm, 'gi'), '<span class="text-secondary">$&</span>') }} />
+                                            </Link>
+                                        </li>
+                                    ))
+                                }
+                                {searchTerm.length > 1 && 
+                                    matchesSearchTermHero(allHeroes, searchTerm).map((hero, i) => {
+                                        let url = "";
+                                        shows.map(s => s.cast.map(a => { if (a.hero === hero) { url = s.id; } }))
+                                        return(
+                                        <li key={i} className="mb-1">
+                                            <Link
+                                                className="flex w-full px-4 py-2 text-sm rounded-lg transition-colors hover:bg-area/10"
+                                                to={`/show/${url}`}
+                                                onClick={closeSearch}>
+                                                <span className="flex justify-end shrink pr-2 opacity-50 basis-14">{t('actor.searchHero')}</span>
+                                                <div dangerouslySetInnerHTML={{ __html: hero.replace(new RegExp(searchTerm, 'gi'), '<span class="text-secondary">$&</span>') }} />
+                                            </Link>
+                                        </li>
+                                    )})
                                 }
                             </ul>
                         </div>
