@@ -36,7 +36,8 @@
         },
         "actor": {
             "playedWith": "Shows {0} played:",
-            "search": "Search for an actor/ress..."
+            "search": "Search for an actor/ress or hero...",
+            "searchHero": "Hero:"
         },
         "sort": {
             "label": "Sort by:",

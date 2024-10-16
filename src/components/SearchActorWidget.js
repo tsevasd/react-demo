@@ -5,7 +5,10 @@ import { IconSearch, IconClose } from "../icons/all";
 
 export default function SearchActorWidget({t, shows}){
 
+    // Add search by hero name
+
     const allCast = showsTool(shows, "ALL_CAST");
+    const allHeroes = showsTool(shows, "ALL_HEROES");
     
     const searchRef = useRef(null);
     const [searchTerm, setSearchTerm] = useState("");
@@ -14,6 +17,9 @@ export default function SearchActorWidget({t, shows}){
     }
     const matchesSearchTerm = (allCast, searchTerm) => {
         return [...allCast.filter((actor) => actor.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0), ...allCast.filter(actor => actor.toLowerCase().indexOf(searchTerm.toLowerCase()) > 0)];
+    }
+    const matchesSearchTermHero = (allHeroes, searchTerm) => {
+        return [...allHeroes.filter((hero) => hero.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0), ...allHeroes.filter(hero => hero.toLowerCase().indexOf(searchTerm.toLowerCase()) > 0)];
     }
 
     return(
@@ -39,8 +45,7 @@ export default function SearchActorWidget({t, shows}){
             </div>
             <div className="pb-4 flex-grow overflow-y-auto h-4/5 max-h-96">
                 <ul>
-                    {
-                        searchTerm.length > 1 &&
+                    {searchTerm.length > 1 && 
                         matchesSearchTerm(allCast, searchTerm).map((actor, i) => (
                             <li key={i} className="mb-1">
                                 <Link
@@ -50,6 +55,21 @@ export default function SearchActorWidget({t, shows}){
                                 </Link>
                             </li>
                         ))
+                    }
+                    {searchTerm.length > 1 && 
+                        matchesSearchTermHero(allHeroes, searchTerm).map((hero, i) => {
+                            let url = "";
+                            shows.map(s => s.cast.map(a => { if (a.hero === hero) { url = s.id; } }))
+                            return(
+                            <li key={i} className="mb-1">
+                                <Link
+                                    className="flex w-full px-4 py-2 text-sm rounded-lg transition-colors hover:bg-area/10"
+                                    to={`/show/${url}`}>
+                                    <span className=" shrink pr-2">{t('actor.searchHero')}</span>
+                                    <div dangerouslySetInnerHTML={{ __html: hero.replace(new RegExp(searchTerm, 'gi'), '<span class="text-secondary">$&</span>') }} />
+                                </Link>
+                            </li>
+                        )})
                     }
                 </ul>
             </div>

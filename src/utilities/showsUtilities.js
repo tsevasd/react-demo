@@ -9,6 +9,8 @@ export const showsTool = (shows, action) => {
             return shows.map((show) => { return { "id": show.id, "title": show.title, "years": show.years } });
         case "ALL_CAST":
             return [...new Set(shows.map(x => x.cast.map(c => c.name).flat()).flat())].sort();
+        case "ALL_HEROES":
+            return [...new Set(shows.map(x => x.cast.map(c => c.hero).flat()).flat())].sort();
         default:
             return shows;
     }
