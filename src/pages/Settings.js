@@ -20,7 +20,7 @@ export default function Settings({t, handleChangeLanguage}){
     function handleUserName(e){
         let newName = e.target.value;
         setUserName(newName);
-        dispatchUser({ type: "UPDATE_VALUE", key: "name", value: newName });
+        dispatchUser({ type: "UPDATE_VALUE", payload: { key: "name", value: newName } });
     }
 
     return(

@@ -10,7 +10,7 @@ export default function ShowCard({show}){
     const { user, dispatchUser } = useContext(UserContext);
 
     function toggleFavorite(){
-        dispatchUser({ type: "TOGGLE_FAVORITE_SHOW", showId: show.id});
+        dispatchUser({ type: "TOGGLE_FAVORITE_SHOW", payload: { showId: show.id } });
     };
 
     const handleError = (e) => {

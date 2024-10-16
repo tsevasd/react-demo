@@ -28,18 +28,21 @@ export default function UserMenu({user, t}){
               >
                 <div className="flex h-full flex-col overflow-y-scroll bg-bodycolor py-6 shadow-xl border-l border-primary">
                     <div className="px-4 sm:px-6">
-                        <div className="flex items-start justify-between">
-                        <DialogTitle className="text-base font-semibold py-1">{user.name}</DialogTitle>
-                        <div className="ml-3 flex h-7 items-center">
-                            <button
-                                type="button"
-                                onClick={() => setOpen(false)}
-                                className="w-12 h-12 flex items-center justify-center  rounded-full hover:bg-area/10 focus:outline-none"
-                            >
-                            <IconClose iconClassName="w-8 h-8 stroke-primary"></IconClose>
-                            <span className="sr-only">Close panel</span>
-                            </button>
-                        </div>
+                        <div className="flex items-center justify-between">
+                            <div className="border-2 border-textcolor rounded-full basis-16 h-16 flex items-center justify-center">
+                                <IconUser iconClassName="w-8 h-8 stroke-secondary"></IconUser>
+                            </div>
+                            <DialogTitle className="text-xl grow font-semibold pl-4 py-1">{user.name}</DialogTitle>
+                            <div className="ml-3 flex h-7 items-center">
+                                <button
+                                    type="button"
+                                    onClick={() => setOpen(false)}
+                                    className="w-12 h-12 flex items-center justify-center  rounded-full hover:bg-area/10 focus:outline-none"
+                                >
+                                <IconClose iconClassName="w-8 h-8 stroke-primary"></IconClose>
+                                <span className="sr-only">Close panel</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="relative mt-6 flex-1 px-4 sm:px-6 overflow-y-auto">

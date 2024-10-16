@@ -19,7 +19,7 @@ export default function Notifications({t}){
         if (typeof currentMessage !== "undefined") {
             //console.log({type: "READ_MESSAGE", date: currentMessageDate})
             //console.log(user, 'then calling dispatch');
-            dispatchUser({ type: "READ_MESSAGE", date: currentMessageDate });
+            dispatchUser({ type: "READ_MESSAGE", payload: { date: currentMessageDate } });
             
             /*var messages = user.notifications.messages.map(m => {
                 return {...m, read: m.date === currentMessageDate ? true : m.read };

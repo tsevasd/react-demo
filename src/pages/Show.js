@@ -15,7 +15,7 @@ export default function Show({t, shows}) {
     //console.log(show);
 
     function toggleFavorite(){
-        dispatchUser({ type: "TOGGLE_FAVORITE_SHOW", showId: show.id});
+        dispatchUser({ type: "TOGGLE_FAVORITE_SHOW", payload: { showId: show.id } });
     };
 
     return (

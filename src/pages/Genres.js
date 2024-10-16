@@ -5,12 +5,10 @@ import { showsTool, nameToURL } from "../utilities/showsUtilities";
 
 export default function Genres({t, shows}){
 
-    //const { userInitialState, userInitialState2, setUser } = useContext(UserContext);
-    //const [user, dispatch] = useReducer(userReducer, userInitialState2);
     const { user, dispatchUser } = useContext(UserContext);
 
     function toggleGenre(genre){
-        dispatchUser({type: "TOGGLE_FAVORITE_GENRE", genre: genre});
+        dispatchUser({type: "TOGGLE_FAVORITE_GENRE", payload: { genre: genre } });
     }
 
     const allGenres = showsTool(shows, "ALL_GENRES");
