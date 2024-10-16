@@ -7,6 +7,8 @@ export const showsTool = (shows, action) => {
             return [...new Set(shows.map(x => x.genres).flat())].sort().filter(x => x.split(' ').length === 1);
         case "SHORT_LIST":
             return shows.map((show) => { return { "id": show.id, "title": show.title, "years": show.years } });
+        case "ALL_CAST":
+            return [...new Set(shows.map(x => x.cast.map(c => c.name).flat()).flat())].sort();
         default:
             return shows;
     }

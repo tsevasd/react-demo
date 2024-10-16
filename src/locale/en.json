@@ -35,7 +35,8 @@
             "shows": "Shows"
         },
         "actor": {
-            "playedWith": "Shows {0} played:"
+            "playedWith": "Shows {0} played:",
+            "search": "Search for an actor/ress..."
         },
         "sort": {
             "label": "Sort by:",

@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import UserContext from '../context/UserContext';
 import { Link, useParams } from 'react-router-dom';
-import { IconStar } from '../icons/all';
+import { IconStar, IconHeart, IconHeartOn } from '../icons/all';
 import { nameToURL, initials } from "../utilities/showsUtilities";
 
 export default function Show({t, shows}) {
+
+    const { user, dispatchUser } = useContext(UserContext);
 
     // get the show id through the URL
     const {showId} = useParams();
     // find the show from the array that matches the id
     const show = shows.find((s) => s.id.toString() === showId);
     //console.log(show);
+
+    function toggleFavorite(){
+        dispatchUser({ type: "TOGGLE_FAVORITE_SHOW", showId: show.id});
+    };
 
     return (
         <div className="px-6 pb-4 mb-4 max-w-4xl md:border-r border-darkcolor">
@@ -23,6 +30,10 @@ export default function Show({t, shows}) {
                         <div className="flex items-center">
                             {show.rating.toFixed(1)}
                             <IconStar iconClassName="w-6 h-6 ml-2 stroke-secondary"></IconStar>
+                            <a onClick={toggleFavorite} className="ml-3">
+                                {user.favorites.includes(show.id) ? <IconHeartOn iconClassName="w-6 h-6 fill-error"></IconHeartOn> :
+                                <IconHeart iconClassName="w-6 h-6 stroke-secondary"></IconHeart>}
+                            </a>
                         </div>
                     </div>
                     <div className="mb-4">
