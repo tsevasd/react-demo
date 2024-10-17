@@ -31,7 +31,6 @@ function App() {
   }
 
   const [shows, setShows] = useState([]);
-  const [showsShort, setShowsShort] = useState([]);
 
   async function fetchShowsAsync(){
     try {
@@ -39,7 +38,6 @@ function App() {
         const json = await response.json();
 
         setShows(json);
-        setShowsShort(showsTool(json, "SHORT_LIST"));
 
     } catch(err) {
         console.error(err);
@@ -65,7 +63,7 @@ function App() {
                 <Route path="/genres" element={<Genres t={t} shows={shows} />}></Route>
                 <Route path="/notifications/:message?" element={<Notifications t={t} />}></Route>
                 <Route path="/settings" element={<Settings t={t} handleChangeLanguage={handleChangeLanguage} shows={shows} />}></Route>
-                <Route path="/show/:showId" action={({ params }) => {}} element={<Show t={t} shows={shows} />}></Route>
+                <Route path="/show/:showId" element={<Show t={t} shows={shows} />}></Route>
                 <Route path="/actor/:actorName" element={<Actor t={t} shows={shows} />}></Route>
                 <Route path="/genre/:genre" element={<Genre t={t} shows={shows} />}></Route>
                 <Route path="*" element={<NotFound></NotFound>}></Route>
