@@ -17,7 +17,6 @@ import Genre from './pages/Genre.js';
 import Notifications from './pages/Notifications.js';
 import Settings from './pages/Settings.js';
 import NotFound from './pages/NotFound.js';
-import { showsTool } from './utilities/showsUtilities.js';
 
 function App() {
 
@@ -33,7 +32,7 @@ function App() {
   const [shows, setShows] = useState([]);
   const [networkError, setNetworkError] = useState({ status: false, message: ""});
 
-  async function fetchShowsAsync(){
+  /*async function fetchShowsAsync(){
     try {
         const response = await fetch('/dimosthenis_tv_shows.json');
         const json = await response.json();
@@ -46,7 +45,7 @@ function App() {
           message: "Network error. Please try again later."
         }));
     }
-  }
+  }*/
 
   useEffect(() => {
     //fetchShowsAsync()
