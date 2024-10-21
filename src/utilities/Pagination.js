@@ -10,6 +10,7 @@ export default function Pagination({t, postsPerPage, length, currentPage, link})
     for (let i = 1; i <= Math.ceil(length / postsPerPage); i++) {
         paginationNumbers.push(i);
     }
+    console.log(currentPageNumber, paginationNumbers.length, paginationNumbers);
 
     return(
         <div className="flex items-center justify-center py-3">
@@ -20,7 +21,7 @@ export default function Pagination({t, postsPerPage, length, currentPage, link})
                 <IconArrowRight iconClassName="w-4 h-4 mr-2 stroke-textcolor rotate-180"></IconArrowRight>
                 {t('previous')}
             </Link>
-            {paginationNumbers.map((pageNumber) => (
+            {paginationNumbers.length > 1 && paginationNumbers.map((pageNumber) => (
                 <Link
                     className={`w-8 h-8 mx-1 transition rounded-full ${pageNumber === currentPageNumber ? 'flex bg-primary text-primary-variant-light' : 'hidden md:flex bg-area/10 hover:bg-area/20'} items-center justify-center`}
                     to={link.replace('{0}', pageNumber)}
@@ -28,7 +29,7 @@ export default function Pagination({t, postsPerPage, length, currentPage, link})
                 >{pageNumber}</Link>
             ))}
             <Link
-                className={`pl-3 pr-2 h-8 ml-1 text-sm bg-area/10 hover:bg-area/20 transition rounded-full inline-flex items-center ${currentPageNumber === paginationNumbers.length && 'invisible'}`}
+                className={`pl-3 pr-2 h-8 ml-1 text-sm bg-area/10 hover:bg-area/20 transition rounded-full inline-flex items-center ${(currentPageNumber === paginationNumbers.length || paginationNumbers.length <= 1) && 'invisible'}`}
                 to={link.replace('{0}', currentPageNumber+1)}
             >
                 {t('next')}

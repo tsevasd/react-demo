@@ -31,6 +31,7 @@ function App() {
   }
 
   const [shows, setShows] = useState([]);
+  const [networkError, setNetworkError] = useState({ status: false, message: ""});
 
   async function fetchShowsAsync(){
     try {
@@ -40,12 +41,25 @@ function App() {
         setShows(json);
 
     } catch(err) {
-        console.error(err);
+        console.error(setNetworkError({
+          status: true,
+          message: "Network error. Please try again later."
+        }));
     }
   }
 
   useEffect(() => {
-    fetchShowsAsync()
+    //fetchShowsAsync()
+    fetch('/dimosthenis_tv_shows.json')
+    .then(response => response.json())
+    .then(data => setShows(data))
+    .catch(err => {
+      console.error(err);
+      setNetworkError({
+        status: true,
+        message: "Network error. Please try again later."
+      });
+    })
   }, []);
 
   return (
@@ -57,15 +71,15 @@ function App() {
             <Header t={t} handleChangeLanguage={handleChangeLanguage} shows={shows} ></Header>
             <section>
               <Routes>
-                <Route path="/:page?" element={<Home t={t} shows={shows} />}></Route>
-                <Route path="/top-10" element={<Top10 t={t} shows={shows} />}></Route>
-                <Route path="/favorites" element={<FavoriteShows t={t} shows={shows} />}></Route>
-                <Route path="/genres" element={<Genres t={t} shows={shows} />}></Route>
+                <Route path="/:page?" element={<Home t={t} shows={shows} error={networkError} />}></Route>
+                <Route path="/top-10" element={<Top10 t={t} shows={shows} error={networkError} />}></Route>
+                <Route path="/favorites" element={<FavoriteShows t={t} shows={shows} error={networkError} />}></Route>
+                <Route path="/genres" element={<Genres t={t} shows={shows} error={networkError} />}></Route>
                 <Route path="/notifications/:message?" element={<Notifications t={t} />}></Route>
-                <Route path="/settings" element={<Settings t={t} handleChangeLanguage={handleChangeLanguage} shows={shows} />}></Route>
-                <Route path="/show/:showId" element={<Show t={t} shows={shows} />}></Route>
-                <Route path="/actor/:actorName" element={<Actor t={t} shows={shows} />}></Route>
-                <Route path="/genre/:genre" element={<Genre t={t} shows={shows} />}></Route>
+                <Route path="/settings" element={<Settings t={t} handleChangeLanguage={handleChangeLanguage} shows={shows} error={networkError} />}></Route>
+                <Route path="/show/:showId" element={<Show t={t} shows={shows} error={networkError} />}></Route>
+                <Route path="/actor/:actorName" element={<Actor t={t} shows={shows} error={networkError} />}></Route>
+                <Route path="/genre/:genre/:page?" element={<Genre t={t} shows={shows} error={networkError} />}></Route>
                 <Route path="*" element={<NotFound></NotFound>}></Route>
               </Routes>
             </section>

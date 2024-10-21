@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useReducer } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { nameToURL } from "../utilities/showsUtilities";
 import { yearsTool } from "../utilities/timeUtilities";

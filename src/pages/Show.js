@@ -18,7 +18,7 @@ export default function Show({t, shows}) {
         dispatchUser({ type: "TOGGLE_FAVORITE_SHOW", payload: { showId: show.id } });
     };
 
-    return (
+    if (shows.length > 0) return (
         <div className="px-6 pb-4 mb-4 max-w-4xl md:border-r border-darkcolor">
             <div className="md:flex flex-row w-full mb-8">
                 <div className="mb-8 md:mb-0">

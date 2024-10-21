@@ -5,11 +5,11 @@ import ShowCard from '../components/ShowCard';
 import GenresWidget from '../components/GenresWidget';
 import Pagination from '../utilities/Pagination';
 
-export default function Home({t, shows}) {
+export default function Home({t, shows, error}) {
 
     const { theme } = useContext(ThemeContext);
 
-    const postsPerPage = 8;
+    const postsPerPage = 10;
     const {page} = useParams();
     const currentPage = (typeof page === "undefined") ? 1 : parseInt(page);
     const startPost = (currentPage - 1) * postsPerPage;
@@ -41,7 +41,7 @@ export default function Home({t, shows}) {
         <div className="px-6 md:px-8 pb-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div className="md:col-span-3">
-                    <img src={`img/logo_hor_${theme.theme === "dark" ? 'light' : 'dark'}.png`} alt={theme.name}className="block max-w-60 md:max-w-lg mx-auto" />
+                    <img src={`img/logo_hor_${theme.theme === "dark" ? 'light' : 'dark'}.png`} alt={theme.name}className="block max-w-60 md:max-w-96 mx-auto" />
                     <div className="flex flex-col md:flex-row w-full items-end gap-4 md:gap-6 mb-4">
                         <div className="md:pr-16">
                             <h1 className="font-bold text-lg mb-2">{t('home.title')}</h1>
@@ -62,11 +62,16 @@ export default function Home({t, shows}) {
                             </select>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
-                        {sortedShows.slice(startPost, endPost).map((show) => (
+                    {!error.status ?
+                    (<div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-4">
+                        {sortedShows.length > 0 && sortedShows.slice(startPost, endPost).map((show) => (
                             <ShowCard key={show.id} show={show}></ShowCard>
                         ))}
-                    </div>
+                    </div>)
+                    : (<div className="p-12 text-center text-error">
+                        {error.message}
+                    </div>)
+                    }
                     <Pagination t={t} postsPerPage={postsPerPage} length={shows.length} currentPage={currentPage.toString()} link="/{0}"></Pagination>
                 </div>
                 <div className="md:border-l border-darkcolor">
