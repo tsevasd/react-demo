@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
+import UserContext from "../context/UserContext";
 import ThemeContext from "../context/ThemeContext";
 import { IconSun, IconMoon, IconLogout, IconArrowDoubleRight, IconHeart, IconFilm, IconSettings, IconClose } from "../icons/all";
 
 export default function Sidebar({t}){
 
+    const { user } = useContext(UserContext);
     const { theme, toggleSidebar, toggleTheme } = useContext(ThemeContext);
 
     return(
@@ -29,10 +31,10 @@ export default function Sidebar({t}){
                         <img src={`/img/logo_hor_${theme.theme === "dark" ? 'light' : 'dark'}.png`} alt={theme.name} className="h-12 w-auto max-w-none" />
                     </Link>
                     <button
-                        className={`hidden md:flex absolute z-10 -right-4 top-2 w-8 h-8 items-center justify-center bg-bodycolor border border-textcolor rounded-full opacity-50 hover:opacity-80 transition-all ${theme.sidebar === "open" ? "rotate-180" : ""}`}
+                        className="hidden md:flex absolute z-10 -right-4 top-0 w-8 h-8 items-center justify-center bg-bodycolor border border-textcolor border-t-0 pb-1 rounded-b-full opacity-75 hover:opacity-100 transition-all"
                         onClick={toggleSidebar}
                     >
-                        <IconArrowDoubleRight iconClassName="w-5 h-5 ml-1 stroke-textcolor"></IconArrowDoubleRight>
+                        <IconArrowDoubleRight iconClassName={`w-5 h-5  stroke-textcolor transition-all ${theme.sidebar === "open" ? "rotate-180" : "ml-1"}`}></IconArrowDoubleRight>
                     </button>
                 </div>
                 <ul className="p-2">
@@ -41,8 +43,11 @@ export default function Sidebar({t}){
                             to="/favorites"
                             className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left" 
                             onClick={() => toggleSidebar({mobile:true})}>
-                            <IconHeart iconClassName="w-8 stroke-secondary inline"></IconHeart>
-                            <span className="ml-3 align-middle">{ t('header.menu.favorites') }</span>
+                            <span className="inline-block relative">
+                                <IconHeart iconClassName="w-8 stroke-secondary inline"></IconHeart>
+                                <span className={`absolute top-0 -right-1 w-4 h-4 bg-bodycolor border border-textcolor rounded-full flex items-center justify-center text-xs transition ${theme.sidebar === "open" ? 'opacity-0' : 'opacity-1'}`}>{user.favorites.length}</span>
+                            </span>
+                            <span className="ml-3 align-middle">{ t('header.menu.favorites') } ({user.favorites.length})</span>
                         </Link>
                     </li>
                     <li>

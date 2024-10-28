@@ -50,7 +50,7 @@ export default function UserMenu({user, t}){
                             <li className="mb-2">
                                 <Link to="/favorites" onClick={() => setOpen(false)} className="block w-full h-12 px-4 py-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left">
                                     <IconHeart iconClassName="w-8 stroke-secondary inline"></IconHeart>
-                                    <span className="ml-3 align-middle">{ t('header.menu.favorites') }</span>
+                                    <span className="ml-3 align-middle">{ t('header.menu.favorites') } ({user.favorites.length})</span>
                                 </Link>
                             </li>
                             <li className="mb-2">

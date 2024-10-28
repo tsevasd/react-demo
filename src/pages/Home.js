@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ThemeContext from '../context/ThemeContext';
 import ShowCard from '../components/ShowCard';
