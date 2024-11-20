@@ -24,7 +24,7 @@ export default function Genre({t, shows, error}){
             <div className="grid grid-cols-1 md:grid-cols-4">
                 <div className="md:col-span-3">
                     {!error.status ?
-                        (<div className="grid grid-cols-5 gap-6 mb-4">
+                        (<div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-4">
                             {showsFound.length > 0 && showsFound.slice(startPost, endPost).map((show) => (
                                 <ShowCard key={show.id} show={show}></ShowCard>
                             ))}

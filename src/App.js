@@ -14,6 +14,7 @@ import Genres from './pages/Genres.js';
 import Show from './pages/Show.js';
 import Actor from './pages/Actor.js';
 import Genre from './pages/Genre.js';
+import Data from './pages/Data.js';
 import Notifications from './pages/Notifications.js';
 import Settings from './pages/Settings.js';
 import NotFound from './pages/NotFound.js';
@@ -79,6 +80,7 @@ function App() {
                 <Route path="/show/:showId" element={<Show t={t} shows={shows} error={networkError} />}></Route>
                 <Route path="/actor/:actorName" element={<Actor t={t} shows={shows} error={networkError} />}></Route>
                 <Route path="/genre/:genre/:page?" element={<Genre t={t} shows={shows} error={networkError} />}></Route>
+                <Route path="/data" element={<Data t={t} shows={shows} error={networkError} />}></Route>
                 <Route path="*" element={<NotFound></NotFound>}></Route>
               </Routes>
             </section>

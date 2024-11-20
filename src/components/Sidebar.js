@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import UserContext from "../context/UserContext";
 import ThemeContext from "../context/ThemeContext";
-import { IconSun, IconMoon, IconLogout, IconArrowDoubleRight, IconHeart, IconFilm, IconSettings, IconClose } from "../icons/all";
+import { IconSun, IconMoon, IconLogout, IconArrowDoubleRight, IconHeart, IconFilm, IconData, IconSettings, IconClose } from "../icons/all";
 
 export default function Sidebar({t}){
 
@@ -11,7 +11,9 @@ export default function Sidebar({t}){
     const { theme, toggleSidebar, toggleTheme } = useContext(ThemeContext);
 
     return(
-        <div className={`fixed z-20 w-full ${theme.sidebar === "open" ? 'translate-x-0 md:basis-64' : '-translate-x-full md:basis-16'} md:translate-x-0 grow-0 shrink-0 h-screen transition-all md:static md:w-auto`}>
+        <>
+        <div className={`hidden z-20 w-full ${theme.sidebar === "open" ? 'translate-x-0 md:basis-64' : '-translate-x-full md:basis-16'} md:translate-x-0 grow-0 shrink-0 h-screen transition-all md:block md:w-auto`}></div>
+        <div className={`fixed z-20 w-full ${theme.sidebar === "open" ? 'translate-x-0 md:basis-64' : '-translate-x-full md:basis-16'} md:translate-x-0 grow-0 shrink-0 h-screen transition-all md:w-auto`}>
             <div className="bg-black/50 fixed inset-0 z-10 md:hidden"
                     onClick={toggleSidebar}>
                 <button
@@ -61,6 +63,15 @@ export default function Sidebar({t}){
                     </li>
                     <li>
                         <Link
+                            to="/data"
+                            className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left"
+                            onClick={() => toggleSidebar({mobile:true})}>
+                            <IconData iconClassName="w-8 stroke-secondary inline"></IconData>
+                            <span className="ml-3 align-middle">{ t('data') }</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
                             to="/settings"
                             className="block mb-2 h-12 p-2 rounded-full hover:bg-area/10 transition-colors overflow-hidden whitespace-nowrap text-left"
                             onClick={() => toggleSidebar({mobile:true})}>
@@ -82,5 +93,6 @@ export default function Sidebar({t}){
                 </button>
             </div>
         </div>
+        </>
     );
 }
